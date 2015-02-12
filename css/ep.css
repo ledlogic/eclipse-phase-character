@@ -1,0 +1,64 @@
+/* ep.css */
+
+*, body {
+	font-family: 'Sabon LT Std';
+}
+
+body {
+	margin: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Heliotype LET Plain Medium';
+}
+
+.ep-nav {
+	border: 1px solid red;
+	height: 30px;
+	margin: 8px 0 8px 0;
+	width: 1013px;
+}
+
+.ep-nav ul {
+	clear: both;
+}
+
+.ep-nav ul li {
+	display: inline-block;
+	float: left;
+	height: 8px;
+	margin: 0 8px 0 8px;
+}
+
+.ep-nav-link {
+	color: red;
+	font-family: 'Heliotype LET Plain Medium';
+	font-size: 20px;
+}
+
+.ep-nav-link:hover {
+	color: #ff9999;
+}
+
+.ep-nav-link.ep-nav-link-active {
+	cursor: default;
+	text-decoration: none;
+}
+.ep-nav-link.ep-nav-link-active:hover {
+	text-decoration: none;
+}
+
+.ep-page {
+	border: 1px solid red;
+	display: none; /* initial state */
+	height: 1311px;
+	width: 1013px;
+}
+
+.ep-page-front {
+	background-image: url(../img/ep-char-01.jpg);
+}
+
+.ep-page-back {
+	background-image: url(../img/ep-char-02.jpg);
+}
