@@ -41,9 +41,25 @@
 	left: 640px;
 }
 
+.ep-aptitudes-morph {
+	position: absolute;
+	top: 182px;
+	left: 640px;
+}
+
+.ep-aptitudes-total {
+	position: absolute;
+	top: 204px;
+	left: 640px;
+}
+
 .ep-aptitude {
 	display: inline-block;
 	margin: 0 0 0 0;
 	text-align: center;
 	width: 44.8px;
+}
+
+.ep-aptitudes-total .ep-aptitude {
+	font-family: 'Lato Black';
 }
