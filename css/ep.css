@@ -1,26 +1,26 @@
 /* ep.css */
 
 *, body {
-	font-family: 'Sabon LT Std';
+	font-family: 'Sabon LT Std'; /* eclipse phase body font is sabon */
 }
 
 body {
-	margin: 10px;
+	margin: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Heliotype LET Plain Medium';
+	font-family: 'Heliotype LET Plain Medium'; /* eclipse phase title font is heliotype */
 }
 
 .ep-nav {
 	border: 1px solid red;
 	height: 30px;
 	margin: 8px 0 8px 0;
+	padding: 2px;
 	width: 1013px;
 }
 
 .ep-nav ul {
-	clear: both;
 }
 
 .ep-nav ul li {
@@ -30,10 +30,19 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 8px 0 8px;
 }
 
+.ep-nav a, .ep-nav label,.ep-nav select {
+	font-family: 'Lato'; /* eclipse phase table font is lato */
+	font-size: 16px;
+}
+
+.ep-nav-links {
+	display: none; /* initially hidden */
+	text-align: right;
+	width: 50%;
+}
+
 .ep-nav-link {
 	color: red;
-	font-family: 'Heliotype LET Plain Medium';
-	font-size: 20px;
 }
 
 .ep-nav-link:hover {
@@ -46,6 +55,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .ep-nav-link.ep-nav-link-active:hover {
 	text-decoration: none;
+}
+
+.ep-nav-char {
+	width: 50%;
+}
+
+.ep-nav-char .progress {
+	display: none;
 }
 
 .ep-page {
