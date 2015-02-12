@@ -41,6 +41,7 @@ ep.character = {
 		ep.character.renderAptitudes();
 		ep.character.renderStats();
 		ep.character.renderSkills();
+		ep.character.renderRep();
 
 		$(".ep-nav-link.ep-nav-link-front").click();			
 
@@ -107,6 +108,25 @@ ep.character = {
 		var $player = $("<div class=\"ep-player\">" + player + "</div>");
 		ep.character.$front.append($player);
 	},
+	renderRep: function() {
+		ep.log("rendering rep");
+
+		var spec = ep.character.spec;
+		var rep = spec.rep;
+		var i = 0;
+		var $rep = $("<div class=\"ep-rep ep-rep-" + Math.floor(i/4) + "\"></div>");
+		_.each(rep, function(value, key) {
+			var h = value;
+			$elm = $("<span class=\"ep-rep-item ep-rep-item-" + key + "\">" + h + "</span>");
+			$rep.append($elm);
+			i++;
+			if (i === 4) {
+				ep.character.$back.append($rep);		
+				$rep = $("<div class=\"ep-rep ep-rep-" + Math.floor(i/4) + "\"></div>");
+			}
+		});
+		ep.character.$back.append($rep);
+	},
 	renderSkills: function() {
 		ep.log("rendering skills");
 
@@ -121,9 +141,10 @@ ep.character = {
 			var $skillsI = $("<div class=\"ep-skills ep-skills-" + i + "\"></div>");
 			_.each(skillsI, function(skill) {
 				var h1 = skill.split(",");
-				var name = h1[0];
-				var key = name.toLowerCase().replace(/ /g,"-").split(":").join("-");
+				var skillName = h1[0];
+				var key = skillName.toLowerCase().replace(/ /g,"-").split(":").join("-");
 				var html = [];
+
 				html.push("<span class=\"ep-skill ep-skill-" + key + "\" title=\"" + key.toUpperCase() + "\">");
 				var h2 = h1.slice(1);
 				if (h2.length < 2) {
@@ -133,8 +154,13 @@ ep.character = {
 					if (items.length) {
 						_.each(items, function(item, i) {
 							html.push("<span class=\"ep-skill-item ep-skill-item-" + i + "\">" + item + "</span>");
-						});	
-					}
+						});
+
+						var cIndex = skillName.indexOf(":");
+						if (cIndex > -1) {
+							var subset = key.split(":")[1];
+						}
+					}					
 				}
 				html.push("</span>");
 				$elm = $(html.join(""));

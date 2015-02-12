@@ -17,7 +17,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ep-nav {
-	border: 1px solid red;
 	height: 30px;
 	margin: 8px 0 8px 0;
 	padding: 2px;
@@ -29,7 +28,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .ep-nav ul li {
 	display: inline-block;
-	float: left;
 	height: 8px;
 	margin: 0 8px 0 8px;
 }
@@ -40,6 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .ep-nav-links {
 	display: none; /* initially hidden */
+	float: right;
 	text-align: right;
 	width: 50%;
 }

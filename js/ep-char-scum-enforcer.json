@@ -123,6 +123,15 @@
 				"Profession:,COG",
 				"Profession:,COG"
 			]
+		},
+		"rep": {
+			"@-rep": 60,
+			"c-rep": 40,
+			"e-rep": 0,
+			"f-rep": 0,
+			"g-rep": 0,
+			"i-rep": 0,
+			"r-rep": 0
 		}
 	}
 }
