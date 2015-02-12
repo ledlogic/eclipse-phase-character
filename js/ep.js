@@ -36,10 +36,24 @@ var ep = {
 
 			ep.character.renderPlayer();
 			ep.character.renderOverview();
+			ep.character.renderAptitudes();
 
 			$(".ep-nav-link.ep-nav-link-front").click();			
 
 			ep.nav.showLinks();
+		},
+		renderAptitudes: function() {
+			ep.log("rendering aptitudes");
+
+			var spec = ep.character.spec;
+			var base = spec.aptitudes.base;
+			var $base = $("<div class=\"ep-aptitudes-base\"></div>");
+			_.each(base, function(value, key) {
+				var h = value;
+				$elm = $("<span class=\"ep-aptitude ep-aptitude-" + key + "\">" + h + "</span>");
+				$base.append($elm);
+			});
+			ep.character.$front.append($base);
 		},
 		renderOverview: function() {
 			ep.log("rendering overview");

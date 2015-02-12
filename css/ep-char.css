@@ -34,3 +34,16 @@
 	left: 590px;
 	font-size: 18px;
 }
+
+.ep-aptitudes-base {
+	position: absolute;
+	top: 160px;
+	left: 640px;
+}
+
+.ep-aptitude {
+	display: inline-block;
+	margin: 0 0 0 0;
+	text-align: center;
+	width: 44.8px;
+}

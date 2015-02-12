@@ -11,6 +11,17 @@
 			"moxie": 5,
 			"rez": 0,
 			"motivations": "+Adventure,+Hedonism,+Morphological Freedom"
-		} 
+		},
+		"aptitudes": {
+			"base": {
+				"cog": 10,
+				"coo": 20,
+				"int": 15,
+				"ref": 20,
+				"sav": 10,
+				"som": 20,
+				"wil": 10
+			}
+		}
 	}
 }
