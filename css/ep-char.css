@@ -34,6 +34,10 @@
 	font-size: 18px;
 }
 
+.ep-page-back .ep-player {
+	left: 630px;
+}
+
 .ep-aptitudes-base {
 	position: absolute;
 	top: 160px;
@@ -138,4 +142,16 @@
 	display: block;
 	margin: 11.6px 0 6px 0;
 	width: 236px;
+}
+
+.ep-traits {
+	position: absolute;
+	left: 552px;
+	top: 904px;
+}
+
+.ep-traits-item {
+	display: inline-block;
+	margin: 0 0 0 0;
+	width: 200px;
 }

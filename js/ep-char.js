@@ -42,6 +42,7 @@ ep.character = {
 		ep.character.renderStats();
 		ep.character.renderSkills();
 		ep.character.renderRep();
+		ep.character.renderTraits();
 
 		$(".ep-nav-link.ep-nav-link-front").click();			
 
@@ -107,6 +108,8 @@ ep.character = {
 		var player = spec.player;
 		var $player = $("<div class=\"ep-player\">" + player + "</div>");
 		ep.character.$front.append($player);
+		$player = $("<div class=\"ep-player\">" + player + "</div>");
+		ep.character.$back.append($player);
 	},
 	renderRep: function() {
 		ep.log("rendering rep");
@@ -183,5 +186,17 @@ ep.character = {
 			$stats.append($elm);
 		});
 		ep.character.$front.append($stats);
+	},
+	renderTraits: function() {
+		ep.log("rendering traits");
+
+		var spec = ep.character.spec;
+		var traits = spec.traits;
+		var $traits = $("<div class=\"ep-traits\"></div>");
+		_.each(traits, function(value, key) {
+			$elm = $("<span class=\"ep-traits-item ep-traits-item-" + key + "\">" + value + "</span>");
+			$traits.append($elm);
+		});
+		ep.character.$back.append($traits);
 	}
 };
