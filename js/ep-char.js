@@ -1,5 +1,11 @@
 /* ep-char.js */
 
+/* 
+ * The display models are optimized for the output display, rather than being truncated.
+ * Since the order is known in the output, rendering of css is simplified.
+ * In another layout, it could be adjusted to use css-specific overrides for position
+ * of individual attributes.
+ */
 ep.character = {
 	spec: {},
 	$front: null,
@@ -108,14 +114,15 @@ ep.character = {
 
 		var skills = spec.skills;
 		
-		for (var i=0;i<2;i++) {
+		// there are three sets of skills, to match the display
+		for (var i=0;i<3;i++) {
 			var skillsI = skills[i];
 
 			var $skillsI = $("<div class=\"ep-skills ep-skills-" + i + "\"></div>");
 			_.each(skillsI, function(skill) {
 				var h1 = skill.split(",");
 				var name = h1[0];
-				var key = name.toLowerCase().replace(/ /g,"-");
+				var key = name.toLowerCase().replace(/ /g,"-").split(":").join("-");
 				var html = [];
 				html.push("<span class=\"ep-skill ep-skill-" + key + "\" title=\"" + key.toUpperCase() + "\">");
 				var h2 = h1.slice(1);

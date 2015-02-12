@@ -100,6 +100,28 @@
 				"Swimming,SOM",
 				"Throwing Weapons,COO",
 				"Unarmed Combat,SOM,60 10 70"
+			],
+			"2": [
+				"Academics:Linguistics,COG,50 0 50",
+				"Academics:,COG",
+				"Academics:,COG",
+				"Academics:,COG",
+				"Art:Dance,INT,55,5,60",
+				"Art:,INT",
+				"Art:,INT",
+				"Art:,INT",
+				"Interest:Drug Dealers,COG,50 0 50",
+				"Interest:Gambling,COG,40 0 40",
+				"Interest:Scum Gangs,COG,50 0 50",
+				"Interest:Triad Politics,COG,50 0 50",
+				"Language:Native Spanish,INT,80 5 85",
+				"Language:Cantonese,INT,55 5 60",
+				"Language:,INT",
+				"Language:,INT",
+				"Profession:Bodyguarding,COG,40 0 40",
+				"Profession:Protection Rackets,COG,50 0 50",
+				"Profession:,COG",
+				"Profession:,COG"
 			]
 		}
 	}

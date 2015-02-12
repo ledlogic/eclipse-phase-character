@@ -92,12 +92,22 @@
 	left: 700px;
 }
 
+.ep-skills-2 {
+	position: absolute;
+	top: 902px;
+	left: 700px;
+}
+
 .ep-skill {
 	display: block;
 	font-size: 12px;
 	height: 18.32px;
 	margin: 0 0 0 0;
 	padding-top: 2px;
+}
+
+.ep-skills-2 .ep-skill {
+	height: 17.4px;
 }
 
 .ep-skill-item {
