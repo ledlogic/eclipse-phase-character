@@ -9,14 +9,18 @@ var ep = {
 
 	character: {
 		spec: {},
+		$front: null,
+		$back: null,
 		init: function() {
 			ep.log("init character");
+			ep.character.$front = $(".ep-page-front");
+			ep.character.$back = $(".ep-page-back");
 		},
 		loadChar: function(uri) {
 			$.ajax("js/" + uri)
 				.done(function(data, status, jqxhr) {
 					ep.character.spec = data.spec;
-					ep.character.renderChar();
+					ep.character.render();
 				})
 				.fail(function() {
 					alert("Error: unable to load character list.");
@@ -25,9 +29,36 @@ var ep = {
 					
 				});
 		},
-		renderChar: function() {
+		render: function() {
 			ep.log("rendering char");
+
+			ep.character.$front.html("");
+
+			ep.character.renderOverview();
+
+			$(".ep-nav-link.ep-nav-link-front").click();			
+
 			ep.nav.showLinks();
+		},
+		renderOverview: function() {
+			ep.log("rendering overview");
+
+			var spec = ep.character.spec;
+			var overview = spec.overview;
+			console.log(overview);
+			var $overview = $("<div class=\"ep-overview\"></div>");
+			_.each(overview, function(value, key) {
+				var h = value + "";
+				if (h) {
+					if (h.indexOf(",") > -1) {
+						h = h.split(",");
+						h = h.join("<br/>");
+					}
+					$elm = $("<span class=\"ep-overview-item ep-overview-item-" + key + "\">" + h + "</span>");
+					$overview.append($elm);
+				}
+			});
+			ep.character.$front.append($overview);
 		}
 	},
 

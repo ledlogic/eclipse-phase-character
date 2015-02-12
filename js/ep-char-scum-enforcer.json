@@ -1,6 +1,15 @@
 {
-	"spec": [
-		{
-		}
-	]
+	"spec": {
+		"overview": {
+			"name": "Scum Enforcer",
+			"background": "Scumborm",
+			"faction": "Scum",
+			"morph": "Fury",
+			"gender": "Female",
+			"age": 30,
+			"moxie": 5,
+			"rez": 0,
+			"motivations": "+Adventure,+Hedonism,+Morphological Freedom"
+		} 
+	}
 }

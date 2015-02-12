@@ -1,6 +1,10 @@
 /* ep.css */
 
-*, body {
+* {
+	font-family: 'Lato Semibold'; /* eclipse phase table font is lato */
+}
+
+p {
 	font-family: 'Sabon LT Std'; /* eclipse phase body font is sabon */
 }
 
@@ -31,7 +35,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ep-nav a, .ep-nav label,.ep-nav select {
-	font-family: 'Lato'; /* eclipse phase table font is lato */
 	font-size: 16px;
 }
 
@@ -53,7 +56,9 @@ h1, h2, h3, h4, h5, h6 {
 	cursor: default;
 	text-decoration: none;
 }
+
 .ep-nav-link.ep-nav-link-active:hover {
+	color: red;
 	text-decoration: none;
 }
 
@@ -63,19 +68,4 @@ h1, h2, h3, h4, h5, h6 {
 
 .ep-nav-char .progress {
 	display: none;
-}
-
-.ep-page {
-	border: 1px solid red;
-	display: none; /* initial state */
-	height: 1311px;
-	width: 1013px;
-}
-
-.ep-page-front {
-	background-image: url(../img/ep-char-01.jpg);
-}
-
-.ep-page-back {
-	background-image: url(../img/ep-char-02.jpg);
 }

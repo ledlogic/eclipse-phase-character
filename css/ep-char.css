@@ -1,0 +1,29 @@
+/* ep-char.css */
+
+.ep-page {
+	border: 1px solid red;
+	display: none; /* initial state */
+	position: relative;
+	height: 1311px;
+	width: 1013px;
+}
+
+.ep-page-front {
+	background-image: url(../img/ep-char-01.jpg);
+}
+
+.ep-page-back {
+	background-image: url(../img/ep-char-02.jpg);
+}
+
+.ep-overview {
+	position: absolute;
+	top: 50px;
+	left: 236px;
+}
+
+.ep-overview-item {
+	display: block;
+	margin: 12px 0 6px 0;
+	width: 236px;
+}
