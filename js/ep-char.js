@@ -30,6 +30,7 @@ ep.character = {
 		ep.character.renderPlayer();
 		ep.character.renderOverview();
 		ep.character.renderAptitudes();
+		ep.character.renderStats();
 
 		$(".ep-nav-link.ep-nav-link-front").click();			
 
@@ -95,5 +96,19 @@ ep.character = {
 		var player = spec.player;
 		var $player = $("<div class=\"ep-player\">" + player + "</div>");
 		ep.character.$front.append($player);
+	},
+	renderStats: function() {
+		ep.log("rendering aptitudes");
+
+		var spec = ep.character.spec;
+
+		var stats = spec.stats;
+		var $stats = $("<div class=\"ep-stats\"></div>");
+		_.each(stats, function(value, key) {
+			var h = value;
+			$elm = $("<span class=\"ep-stat ep-stat-" + key + "\" title=\"" + key.toUpperCase() + "\">" + h + "</span>");
+			$stats.append($elm);
+		});
+		ep.character.$front.append($stats);
 	}
 };

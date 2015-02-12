@@ -63,3 +63,16 @@
 .ep-aptitudes-total .ep-aptitude {
 	font-family: 'Lato Black';
 }
+
+.ep-stats {
+	position: absolute;
+	top: 282px;
+	left: 506px;
+}
+
+.ep-stat {
+	display: inline-block;
+	margin: 0 0 0 0;
+	text-align: center;
+	width: 44.8px;
+}
