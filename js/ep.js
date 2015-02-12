@@ -34,6 +34,7 @@ var ep = {
 
 			ep.character.$front.html("");
 
+			ep.character.renderPlayer();
 			ep.character.renderOverview();
 
 			$(".ep-nav-link.ep-nav-link-front").click();			
@@ -45,7 +46,6 @@ var ep = {
 
 			var spec = ep.character.spec;
 			var overview = spec.overview;
-			console.log(overview);
 			var $overview = $("<div class=\"ep-overview\"></div>");
 			_.each(overview, function(value, key) {
 				var h = value + "";
@@ -59,6 +59,14 @@ var ep = {
 				}
 			});
 			ep.character.$front.append($overview);
+		},
+		renderPlayer: function() {
+			ep.log("rendering player");
+
+			var spec = ep.character.spec;
+			var player = spec.player;
+			var $player = $("<div class=\"ep-player\">" + player + "</div>");
+			ep.character.$front.append($player);
 		}
 	},
 

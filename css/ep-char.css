@@ -24,6 +24,13 @@
 
 .ep-overview-item {
 	display: block;
-	margin: 12px 0 6px 0;
+	margin: 11.6px 0 6px 0;
 	width: 236px;
+}
+
+.ep-player {
+	position: absolute;
+	top: 36px;
+	left: 590px;
+	font-size: 18px;
 }
