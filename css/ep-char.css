@@ -76,3 +76,37 @@
 	text-align: center;
 	width: 44.8px;
 }
+
+.ep-skills {
+}
+
+.ep-skills-0 {
+	position: absolute;
+	top: 552px;
+	left: 236px;
+}
+
+.ep-skills-1 {
+	position: absolute;
+	top: 552px;
+	left: 700px;
+}
+
+.ep-skill {
+	display: block;
+	font-size: 12px;
+	height: 18.32px;
+	margin: 0 0 0 0;
+	padding-top: 2px;
+}
+
+.ep-skill-item {
+	display: inline-block;
+	margin: 0 0 0 0;
+	text-align: center;
+	width: 48px;
+}
+
+.ep-skill-item-2 {
+	font-family: 'Lato Black';
+}

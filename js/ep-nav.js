@@ -24,7 +24,7 @@ ep.nav = {
 		$.ajax("js/ep-char-list.json")
 		.done(function(data, status, jqxhr) {
 			ep.nav.characters = data.characters;
-			ep.nav.renderChars();
+			setTimeout(ep.nav.renderChars, 10);
 		})
 		.fail(function() {
 			alert("Error: unable to load character list.");

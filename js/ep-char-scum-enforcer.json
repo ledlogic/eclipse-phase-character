@@ -21,7 +21,7 @@
 				"sav": 10,
 				"som": 20,
 				"wil": 10
-			},
+				},
 			"morph": {
 				"cog": 0,
 				"coo": 5,
@@ -43,6 +43,64 @@
 			"init": "7 (9)",
 			"spd": "1 (2)",
 			"db": "2 (3)"
+		},
+		"skills": {
+			"0": [
+				"Animal Handling,SAV",
+				"Beam Weapons,COO,40 5 45",
+				"Blades,SOM,60 10 70",
+				"Climbing,SOM,40 10 50",
+				"Clubs,SOM,50 10 60",
+				"Control,WIL*",
+				"Deception,SAV",
+				"Demolitions,COG*",
+				"Disguise,INT",
+				"Exotic Melee:,SOM",
+				"Exotic Melee:,SOM",
+				"Exotic Ranged:,COO",
+				"Exotic Ranged:,COO",
+				"Flight,SOM",
+				"Fray,REF,70 5 75",
+				"Free Fall,REF,60 5 65",
+				"Freerunning,SOM",
+				"Gunnery,INT",
+				"Hardware:Armorer,COG,40 0 40",
+				"Hardware:,COG",
+				"Impersonation,SAV",
+				"Infiltration,COO,50 5 55",
+				"Infosec,COG*",
+				"Interfacing,COG",
+				"Intimidation,SAV,60 60",
+				"Investigation,INT",
+				"Kinesics,SAV,40 0 40",
+				"Kinetic Weapons,COO,60 5 65",
+				"Medicine,COG",
+				"Medicine,COG",
+				"Navigation,INT",
+				"Networking:Autonomists,SAV,50 0 50",
+				"Networking:Criminals,SAV,50 0 50",
+				"Networking:,SAV",
+				"Networking:,SAV",
+				"Palming,COO",
+				"Perception,INT,45 5 50",
+				"Persuasion,SAV,20 0 20"
+			],
+			"1": [
+				"Pilot,REF",
+				"Pilot,REF",
+				"Programming,COG*",
+				"Protocol,SAV",
+				"Psi Assault,WIL*",
+				"Psychosurgery,INT",
+				"Research,COG",
+				"Scrounging,INT,25 5 30",
+				"Seeker Weapons,COO",
+				"Sense,INT*",
+				"Spray Weapons,COO",
+				"Swimming,SOM",
+				"Throwing Weapons,COO",
+				"Unarmed Combat,SOM,60 10 70"
+			]
 		}
 	}
 }

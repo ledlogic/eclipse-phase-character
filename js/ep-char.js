@@ -10,16 +10,19 @@ ep.character = {
 		ep.character.$back = $(".ep-page-back");
 	},
 	loadChar: function(uri) {
+		ep.log("loading char");
+
+		ep.progress.show();
 		$.ajax("js/" + uri)
 		.done(function(data, status, jqxhr) {
 			ep.character.spec = data.spec;
-			ep.character.render();
+			setTimeout(ep.character.render,10);
 		})
 		.fail(function() {
 			alert("Error: unable to load character list.");
 		})
 		.always(function() {
-
+			ep.progress.hide();
 		});
 	},
 	render: function() {
@@ -31,6 +34,7 @@ ep.character = {
 		ep.character.renderOverview();
 		ep.character.renderAptitudes();
 		ep.character.renderStats();
+		ep.character.renderSkills();
 
 		$(".ep-nav-link.ep-nav-link-front").click();			
 
@@ -97,8 +101,44 @@ ep.character = {
 		var $player = $("<div class=\"ep-player\">" + player + "</div>");
 		ep.character.$front.append($player);
 	},
+	renderSkills: function() {
+		ep.log("rendering skills");
+
+		var spec = ep.character.spec;
+
+		var skills = spec.skills;
+		
+		for (var i=0;i<2;i++) {
+			var skillsI = skills[i];
+
+			var $skillsI = $("<div class=\"ep-skills ep-skills-" + i + "\"></div>");
+			_.each(skillsI, function(skill) {
+				var h1 = skill.split(",");
+				var name = h1[0];
+				var key = name.toLowerCase().replace(/ /g,"-");
+				var html = [];
+				html.push("<span class=\"ep-skill ep-skill-" + key + "\" title=\"" + key.toUpperCase() + "\">");
+				var h2 = h1.slice(1);
+				if (h2.length < 2) {
+					value = "";
+				} else {
+					items = h2[1].split(" ");
+					if (items.length) {
+						_.each(items, function(item, i) {
+							html.push("<span class=\"ep-skill-item ep-skill-item-" + i + "\">" + item + "</span>");
+						});	
+					}
+				}
+				html.push("</span>");
+				$elm = $(html.join(""));
+				$skillsI.append($elm);
+			});
+			ep.character.$front.append($skillsI);
+
+		}		
+	},
 	renderStats: function() {
-		ep.log("rendering aptitudes");
+		ep.log("rendering stats");
 
 		var spec = ep.character.spec;
 
