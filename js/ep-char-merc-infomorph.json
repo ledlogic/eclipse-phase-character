@@ -100,14 +100,14 @@
 				"Swimming,SOM",
 				"Throwing Weapons,COO",
 				"Unarmed Combat",
-				"Pilot:Groundcraft,REF,30 0 30"
+				"Pilot:Pilot:Groundcraft,REF,30 0 30"
 			],
 			"2": [
 				"Academics:Anthropology,COG,60 0 60",
 				"Academics:Computer Science,COG,60 0 60",
 				"Academics:Physics,COG,50 0 50",
 				"Academics:,COG",
-				"Art:Digital Art,INT,50,0,50",
+				"Art:Digital Art,INT,50 0 50",
 				"Art:,INT",
 				"Art:,INT",
 				"Art:,INT",

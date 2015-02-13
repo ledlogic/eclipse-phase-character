@@ -188,12 +188,16 @@ ep.character = {
 					items = h2[1].split(" ");
 					if (items.length) {
 						_.each(items, function(item, i) {
-							html.push("<span class=\"ep-skill-item ep-skill-item-" + i + "\">" + item + "</span>");
+							html.push("<span class=\"ep-skill-item ep-skill-item-" + key + "\">" + item + "</span>");
 						});
 
 						var cIndex = skillName.indexOf(":");
 						if (cIndex > -1) {
-							var subset = key.split(":")[1];
+							var subset = skillName.substring(cIndex+1);
+							if (subset) {
+								var subsetKey = subset.toLowerCase();
+								html.push("<span class=\"ep-skill-item ep-skill-item-subset ep-skill-item-" + subsetKey + "\">" + subset + "</span>");
+							}
 						}
 					}					
 				}
