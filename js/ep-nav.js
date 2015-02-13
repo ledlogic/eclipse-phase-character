@@ -10,6 +10,8 @@ ep.nav = {
 		ep.nav.loadChars();
 	},
 	click: function() {
+		ep.log("clicked nav");
+
 		var $that = $(this);
 		var href = $that.attr("href").substring(1);
 		$that.siblings().removeClass("ep-nav-link-active")
@@ -49,8 +51,12 @@ ep.nav = {
 		ep.log("selected char");
 
 		var $sel = $(this);
-		var uri = $sel.val();
-		ep.character.loadChar(uri);
+		var uri = $sel.find("option:selected").attr("value");
+		if (uri) {
+			ep.character.loadChar(uri);
+		} else {
+			ep.character.hideChar();
+		}
 	},
 	showLinks: function() {
 		$(".ep-nav-links").show();

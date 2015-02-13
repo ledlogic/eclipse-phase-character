@@ -15,6 +15,11 @@ ep.character = {
 		ep.character.$front = $(".ep-page-front");
 		ep.character.$back = $(".ep-page-back");
 	},
+	hideChar: function() {
+		ep.log("hiding char");
+		$(".ep-page").hide();
+		ep.nav.hideLinks();
+	},
 	loadChar: function(uri) {
 		ep.log("loading char");
 
@@ -35,6 +40,7 @@ ep.character = {
 		ep.log("rendering char");
 
 		ep.character.$front.html("");
+		ep.character.$back.html("");
 
 		ep.character.renderPlayer();
 		ep.character.renderOverview();
