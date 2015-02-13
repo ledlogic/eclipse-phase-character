@@ -43,6 +43,7 @@ ep.character = {
 		ep.character.renderSkills();
 		ep.character.renderRep();
 		ep.character.renderTraits();
+		ep.character.renderImplants();
 
 		$(".ep-nav-link.ep-nav-link-front").click();			
 
@@ -87,6 +88,8 @@ ep.character = {
 
 		var spec = ep.character.spec;
 		var overview = spec.overview;
+
+		// front
 		var $overview = $("<div class=\"ep-overview\"></div>");
 		_.each(overview, function(value, key) {
 			var h = value + "";
@@ -100,6 +103,12 @@ ep.character = {
 			}
 		});
 		ep.character.$front.append($overview);
+
+		// back
+		$overview = $("<div class=\"ep-overview\"></div>");
+		$elm = $("<span class=\"ep-overview-item ep-overview-item-character" + "\">" + overview.name + "</span>");
+		$overview.append($elm);
+		ep.character.$back.append($overview);
 	},
 	renderPlayer: function() {
 		ep.log("rendering player");
@@ -198,5 +207,17 @@ ep.character = {
 			$traits.append($elm);
 		});
 		ep.character.$back.append($traits);
+	},
+	renderImplants: function() {
+		ep.log("rendering implants");
+
+		var spec = ep.character.spec;
+		var implants = spec.implants;
+		var $implants = $("<div class=\"ep-implants\"></div>");
+		_.each(implants, function(value, key) {
+			$elm = $("<span class=\"ep-implants-item ep-implants-item-" + key + "\">" + value + "</span>");
+			$implants.append($elm);
+		});
+		ep.character.$back.append($implants);
 	}
 };

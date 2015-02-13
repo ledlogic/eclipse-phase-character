@@ -135,6 +135,17 @@
 		},
 		"traits": [
 			"Minor Addition (Alcohol)"
+		],
+		"implants": [
+			"Basic Biomods",
+			"Basic Mesh Inserts",
+			"Bioweave Armor (Light)",
+			"Cortical Stack",
+			"Cyberclaws",
+			"Enhanced Vision",
+			"Medichines",
+			"Neurochem (Level 1)",
+			"Toxin Filters"
 		]
 	}
 }

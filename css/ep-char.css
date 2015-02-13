@@ -27,6 +27,10 @@
 	width: 236px;
 }
 
+.ep-page-back .ep-overview {
+	left: 176px;
+}
+
 .ep-player {
 	position: absolute;
 	top: 36px;
@@ -154,4 +158,16 @@
 	display: inline-block;
 	margin: 0 0 0 0;
 	width: 200px;
+}
+
+.ep-implants {
+	position: absolute;
+	left: 66px;
+	top: 1066px;
+}
+
+.ep-implants-item {
+	display: block;
+	margin: 0 0 0 0;
+	width: 1000px;
 }
