@@ -44,6 +44,7 @@ ep.character = {
 		ep.character.renderRep();
 		ep.character.renderTraits();
 		ep.character.renderImplants();
+		ep.character.renderArmor();
 
 		$(".ep-nav-link.ep-nav-link-front").click();			
 
@@ -219,5 +220,17 @@ ep.character = {
 			$implants.append($elm);
 		});
 		ep.character.$back.append($implants);
+	},
+	renderArmor: function() {
+		ep.log("rendering armor");
+
+		var spec = ep.character.spec;
+		var armor = spec.armor;
+		var $armor = $("<div class=\"ep-armor\"></div>");
+		_.each(armor, function(value, key) {
+			$elm = $("<span class=\"ep-armor-item ep-armor-item-" + key + "\" title=\"" + key + "\">" + value + "</span>");
+			$armor.append($elm);
+		});
+		ep.character.$front.append($armor);
 	}
 };

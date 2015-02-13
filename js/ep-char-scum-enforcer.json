@@ -146,6 +146,10 @@
 			"Medichines",
 			"Neurochem (Level 1)",
 			"Toxin Filters"
-		]
+		],
+		"armor": {
+			"energy": 15,
+			"kinetic": 16
+		}
 	}
 }

@@ -150,8 +150,8 @@
 
 .ep-traits {
 	position: absolute;
-	left: 552px;
-	top: 904px;
+	left: 72px;
+	top: 324px;
 }
 
 .ep-traits-item {
@@ -170,4 +170,16 @@
 	display: block;
 	margin: 0 0 0 0;
 	width: 1000px;
+}
+
+.ep-armor {
+	position: absolute;
+	left: 130px;
+	top: 406px;
+}
+
+.ep-armor-item {
+	display: inline-block;
+	margin: 0 0 0 0;
+	width:190px;
 }
