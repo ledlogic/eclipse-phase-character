@@ -1,0 +1,189 @@
+{
+	"spec": {
+		"player": "",
+		"overview": {
+			"name": "Scum Chemist",
+			"background": "Scumborm",
+			"faction": "Scum",
+			"morph": "Ruster",
+			"gender": "Male",
+			"age": 30,
+			"moxie": 3,
+			"rez": 0,
+			"motivations": "+All the Drugs +Hedonism +Individualism"
+		},
+		"aptitudes": {
+			"base": {
+				"cog": 20,
+				"coo": 15,
+				"int": 10,
+				"ref": 20,
+				"sav": 15,
+				"som": 10,
+				"wil": 20
+				},
+			"morph": {
+				"cog": 5,
+				"coo": 0,
+				"int": 0,
+				"ref": 0,
+				"sav": 0,
+				"som": 15,
+				"wil": 0
+			}
+		},
+		"stats": {
+			"mox": 3,
+			"tt": 8,
+			"luc": 40,
+			"ir": 80,
+			"wt": 7,
+			"dur": 35,
+			"dr": 53,
+			"init": 6,
+			"spd": 1,
+			"db": ""
+		},
+		"skills": {
+			"0": [
+				"Animal Handling,SAV, 35 0 35",
+				"Beam Weapons,COO",
+				"Blades,SOM",
+				"Climbing,SOM",
+				"Clubs,SOM",
+				"Control,WIL*",
+				"Deception,SAV",
+				"Demolitions,COG*",
+				"Disguise,INT",
+				"Exotic Melee:,SOM",
+				"Exotic Melee:,SOM",
+				"Exotic Ranged:,COO",
+				"Exotic Ranged:,COO",
+				"Flight,SOM",
+				"Fray,REF,35 0 35",
+				"Free Fall,REF,60 0 60",
+				"Freerunning,SOM,30 5 35",
+				"Gunnery,INT",
+				"Hardware:Electronics,COG,45 5 50",
+				"Hardware:Groundcraft,COG,40 5 45",
+				"Impersonation,SAV",
+				"Infiltration,COO",
+				"Infosec,COG*",
+				"Interfacing,COG",
+				"Intimidation,SAV",
+				"Investigation,INT,60 0 60",
+				"Kinesics,SAV,55 0 55",
+				"Kinetic Weapons,COO,55 0 55",
+				"Medicine:Biosculpting,COG,50 5 55",
+				"Medicine:Paramedic,COG,60 5 65",
+				"Navigation,INT",
+				"Networking:Autonomists,SAV,65 0 65",
+				"Networking:Criminals,SAV,25 0 25",
+				"Networking:Scientists,SAV,55 0 55",
+				"Networking:,SAV",
+				"Palming,COO",
+				"Perception,INT,50 0 50",
+				"Persuasion,SAV,45 0 45"
+			],
+			"1": [
+				"Pilot:Spacecraft,REF,60 0 60",
+				"Pilot,REF",
+				"Programming,COG*,60 5 65",
+				"Protocol,SAV",
+				"Psi Assault,WIL*",
+				"Psychosurgery,INT",
+				"Research,COG,60 5 65",
+				"Scrounging,INT,40 0 40",
+				"Seeker Weapons,COO",
+				"Sense,INT*",
+				"Spray Weapons,COO,35 0 35",
+				"Swimming,SOM",
+				"Throwing Weapons,COO",
+				"Unarmed Combat,SOM,40 5 45,",
+				":Hardware:Industrial,COG",
+				":Hardware:Robotics,COG"
+			],
+			"2": [
+				"Academics:Botany,COG,55 5 60",
+				"Academics:Chemistry,COG,65 5 70",
+				"Academics:,COG",
+				"Academics:,COG",
+				"Art:Music,INT,60 0 60",
+				"Art:,INT",
+				"Art:,INT",
+				"Art:,INT",
+				"Interest:Drug Dealers,COG,60 5 65",
+				"Interest:,COG",
+				"Interest:,COG",
+				"Interest:,COG",
+				"Language:Native French,INT,90 0 90",
+				"Language:Mandarin,INT,50 0 50",
+				"Language:,INT",
+				"Language:,INT",
+				"Profession:Chemical Eng,COG,60 5 65",
+				"Profession:Dealer,COG,50 5 55",
+				"Profession:,COG",
+				"Profession:,COG"
+			]
+		},
+		"rep": {
+			"@-rep": 60,
+			"c-rep": 0,
+			"e-rep": 0,
+			"f-rep": 0,
+			"g-rep": 40,
+			"i-rep": 0,
+			"r-rep": 50
+		},
+		"traits": [
+			"None"
+		],
+		"armor": {
+			"energy": 10,
+			"kinetic": 10
+		},
+		"implants": [
+			"Basic Biomods",
+			"Basic Mesh Inserts",
+			"Cortical Stack",
+			"Cyberlimb Plus (2)",
+			"Drug Glands (Neem)",
+			"Enhanced Hearing",
+			"Enhanced Smell",
+			"Enhanced Vision",
+			"Medichines",
+			"T-Ray Emitter"
+		],
+		"gear": [
+			"Buzz (5 doses)",
+			"Comfurt (5 doses)",
+			"Creepy",
+			"Drive (4 doses)",
+			"Grin (4 doses)",
+			"Hither (5 doses)",
+			"Juice (5 doses)",
+			"Kick (2 doses)",
+			"Klar (3 doses)",
+			"Maker",
+			"Mobile Lab",
+			"Mono No Aware (5 doses)",
+			"Neem (4 doses)",
+			"Orbital Hash (5 doses)",
+			"Phlo (4 doses)",
+			"Portable Sensor",
+			"Servitor Bot",
+			"Smart Clothing",
+			"Utilitool",
+			"Viewers"
+		], 
+		"weapons": [
+			{
+				"name": "Heavy Pistol",
+				"skill": 30,
+				"ap": -4,
+				"dv": "2d10+4",
+				"rounds": "500"
+			}
+		]
+	}
+}
