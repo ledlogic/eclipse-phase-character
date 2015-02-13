@@ -1,11 +1,11 @@
 /* ep.css */
 
 * {
-	font-family: 'Lato Semibold'; /* eclipse phase table font is lato */
+	font-family: 'Lato Semibold', 'Lato', 'Helvetica', sans-serif; /* eclipse phase table font is lato */
 }
 
 p {
-	font-family: 'Sabon LT Std'; /* eclipse phase body font is sabon */
+	font-family: 'Sabon LT Std', 'Palatino', serif; /* eclipse phase body font is sabon */
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Heliotype LET Plain Medium'; /* eclipse phase title font is heliotype */
+	font-family: 'Heliotype LET Plain Medium', 'Heliotype LET', 'Palatino', fantasy; /* eclipse phase title font is heliotype */
 }
 
 .progress-bar {
