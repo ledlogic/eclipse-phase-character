@@ -1,12 +1,16 @@
 {
 	"characters": [
 		{
-			"name": "Merc Infomorph",
+			"name": "EP-Merc Infomorph",
 			"uri": "ep-char-merc-infomorph.json"
 		},
 		{
-			"name": "Scum Enforcer",
+			"name": "EP-Scum Enforcer",
 			"uri": "ep-char-scum-enforcer.json"
+		},
+		{
+			"name": "EP-Scum Techie",
+			"uri": "ep-char-scum-techie.json"
 		}
 	]	
 }

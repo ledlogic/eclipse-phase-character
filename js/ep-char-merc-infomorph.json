@@ -1,6 +1,6 @@
 {
 	"spec": {
-		"player": "Player Name",
+		"player": "",
 		"overview": {
 			"name": "Merc Infomorph",
 			"background": "Infomorph",
@@ -100,7 +100,7 @@
 				"Swimming,SOM",
 				"Throwing Weapons,COO",
 				"Unarmed Combat",
-				"Pilot:Pilot:Groundcraft,REF,30 0 30"
+				":Pilot:Groundcraft,REF,30 0 30"
 			],
 			"2": [
 				"Academics:Anthropology,COG,60 0 60",

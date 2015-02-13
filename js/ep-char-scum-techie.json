@@ -1,0 +1,169 @@
+{
+	"spec": {
+		"player": "",
+		"overview": {
+			"name": "Scum Techie",
+			"background": "Scumborm",
+			"faction": "Scum",
+			"morph": "Ruster",
+			"gender": "Female",
+			"age": 30,
+			"moxie": 6,
+			"rez": 0,
+			"motivations": "+Adventure,+Hedonism,+Morphological Freedom"
+		},
+		"aptitudes": {
+			"base": {
+				"cog": 20,
+				"coo": 15,
+				"int": 15,
+				"ref": 10,
+				"sav": 20,
+				"som": 15,
+				"wil": 15
+				},
+			"morph": {
+				"cog": 5,
+				"coo": 0,
+				"int": 0,
+				"ref": 0,
+				"sav": 0,
+				"som": 5,
+				"wil": 0
+			}
+		},
+		"stats": {
+			"mox": 6,
+			"tt": "6",
+			"luc": "30",
+			"ir": "60",
+			"wt": 7,
+			"dur": 35,
+			"dr": 53,
+			"init": 5,
+			"spd": 50,
+			"db": 1
+		},
+		"skills": {
+			"0": [
+				"Animal Handling,SAV",
+				"Beam Weapons,COO",
+				"Blades,SOM",
+				"Climbing,SOM,30 5 40",
+				"Clubs,SOM",
+				"Control,WIL*",
+				"Deception,SAV,40 0 40",
+				"Demolitions,COG*",
+				"Disguise,INT",
+				"Exotic Melee:,SOM",
+				"Exotic Melee:,SOM",
+				"Exotic Ranged:,COO",
+				"Exotic Ranged:,COO",
+				"Flight,SOM",
+				"Fray,REF,30 0 30",
+				"Free Fall,REF,50 0 50",
+				"Freerunning,SOM,30 5 35",
+				"Gunnery,INT",
+				"Hardware:Electronics,COG,70 5+20 95",
+				"Hardware:Groundcraft,COG,50 5+20 25",
+				"Impersonation,SAV",
+				"Infiltration,COO,30 0 30",
+				"Infosec,COG*,70 5 75",
+				"Interfacing,COG,55 5 60",
+				"Intimidation,SAV",
+				"Investigation,INT,40 0 40",
+				"Kinesics,SAV,45 0 45",
+				"Kinetic Weapons,COO",
+				"Medicine,COG",
+				"Medicine,COG",
+				"Navigation,INT",
+				"Networking:Autonomists,SAV,50 0 50",
+				"Networking:Criminals,SAV,50 0 50",
+				"Networking:,SAV",
+				"Networking:,SAV",
+				"Palming,COO",
+				"Perception,INT,50 0 50",
+				"Persuasion,SAV"
+			],
+			"1": [
+				"Pilot:Spacecraft,REF,20 0 20",
+				"Pilot,REF",
+				"Programming,COG*,65 6 70",
+				"Protocol,SAV",
+				"Psi Assault,WIL*",
+				"Psychosurgery,INT",
+				"Research,COG,40 5 45",
+				"Scrounging,INT,40 0 40",
+				"Seeker Weapons,COO",
+				"Sense,INT*",
+				"Spray Weapons,COO,30 0 30",
+				"Swimming,SOM",
+				"Throwing Weapons,COO",
+				"Unarmed Combat,SOM,40 5 45,",
+				":Hardware:Industrial,COG,50 5+20 75",
+				":Hardware:Robotics,COG,40 5+20 65"
+			],
+			"2": [
+				"Academics:Engineering,COG,40 5 45",
+				"Academics:Nanotechnology,COG,35 5 40",
+				"Academics:,COG",
+				"Academics:,COG",
+				"Art:Robotic Sculpture,INT,45 0 45",
+				"Art:,INT",
+				"Art:,INT",
+				"Art:,INT",
+				"Interest:Gatecrashing,COG,40 5 45",
+				"Interest:Music,COG,40 5 45",
+				"Interest:Scum Culture,COG,60 5 65",
+				"Interest:Social Networks,COG,35 5 40",
+				"Language:Native Portuguese,INT,85 0 85",
+				"Language:English,INT,50 0 50",
+				"Language:Spanish,INT,55 0 55",
+				"Language:,INT",
+				"Profession:Computer Security,COG,55 5 60",
+				"Profession:Habitat Systems,COG,50 5 55",
+				"Profession:,COG",
+				"Profession:,COG"
+			]
+		},
+		"rep": {
+			"@-rep": 60,
+			"c-rep": 0,
+			"e-rep": 0,
+			"f-rep": 0,
+			"g-rep": 0,
+			"i-rep": 40,
+			"r-rep": 0
+		},
+		"traits": [
+		],
+		"armor": {
+			"energy": 10,
+			"kinetic": 10
+		},
+		"implants": [
+			"Basic Biomods",
+			"Basic Mesh Inserts",
+			"Cortical Stack",
+			"Enhanced Respiration",
+			"Temperature Respiration",
+			"Temperature Tolerance"
+		],
+		"gear": [
+			"Nanocable Spindle",
+			"Portable Nanofabricator",
+			"Repair Spray (+20 to Hardware Tests)",
+			"Shelter Dome",
+			"Specs (+10 visual perception)"
+		], 
+		"weapons": [
+			{
+				"name": "Shredder (Flechette)",
+				"skill": 30,
+				"ap": -10,
+				"dv": "2d10+5",
+				"rounds": "100"
+			}
+		]
+	}
+}

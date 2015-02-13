@@ -1,6 +1,6 @@
 {
 	"spec": {
-		"player": "Player Name",
+		"player": "",
 		"overview": {
 			"name": "Scum Enforcer",
 			"background": "Scumborm",
@@ -106,7 +106,7 @@
 				"Academics:,COG",
 				"Academics:,COG",
 				"Academics:,COG",
-				"Art:Dance,INT,55,5,60",
+				"Art:Dance,INT,55 5 60",
 				"Art:,INT",
 				"Art:,INT",
 				"Art:,INT",
