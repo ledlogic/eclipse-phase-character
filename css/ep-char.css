@@ -5,6 +5,7 @@
 	position: relative;
 	height: 1311px;
 	width: 1013px;
+	overflow: hidden;
 }
 
 .ep-page-front {

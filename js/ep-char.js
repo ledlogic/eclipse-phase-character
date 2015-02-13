@@ -41,8 +41,22 @@ ep.character = {
 
 		ep.progress.show();
 
-		ep.character.$front.html("");
-		ep.character.$back.html("");
+		// because printing
+		var frontSrc = ep.character.$front.attr("data-background-src");
+		if (!frontSrc) {
+			frontSrc = ep.character.$front.css("background");
+			frontSrc = frontSrc.match(/url\((.*?)\)/)[1].replace(/('|")/g,'');
+			ep.character.$front.attr("data-background-src", frontSrc);
+		}
+		ep.character.$front.html("<img class=\"ep-page-background-img\" src=\"" + frontSrc + "\" />");
+
+		var backSrc = ep.character.$back.attr("data-background-src");
+		if (!backSrc) {
+			backSrc = ep.character.$back.css("background");
+			backSrc = backSrc.match(/url\((.*?)\)/)[1].replace(/('|")/g,'');
+			ep.character.$back.attr("data-background-src", backSrc);
+		}
+		ep.character.$back.html("<img class=\"ep-page-background-img\" src=\"" + backSrc + "\" />");
 
 		ep.character.renderPlayer();
 		ep.progress.update(5);

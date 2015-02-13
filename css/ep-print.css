@@ -1,5 +1,9 @@
 /* ep-print.css */
 
+h1 {
+	display: none;	
+}
+
 .progress {
 	display: none;	
 }
