@@ -45,6 +45,7 @@ ep.character = {
 		ep.character.renderTraits();
 		ep.character.renderImplants();
 		ep.character.renderArmor();
+		ep.character.renderGear();
 
 		$(".ep-nav-link.ep-nav-link-front").click();			
 
@@ -232,5 +233,17 @@ ep.character = {
 			$armor.append($elm);
 		});
 		ep.character.$front.append($armor);
-	}
+	},
+	renderGear: function() {
+		ep.log("rendering gear");
+
+		var spec = ep.character.spec;
+		var gear = spec.gear;
+		var $gear = $("<div class=\"ep-gear\"></div>");
+		_.each(gear, function(value, key) {
+			$elm = $("<span class=\"ep-gear-item ep-gear-item-" + key + "\">" + value + "</span>");
+			$gear.append($elm);
+		});
+		ep.character.$back.append($gear);
+	},
 };

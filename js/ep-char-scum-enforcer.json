@@ -136,6 +136,10 @@
 		"traits": [
 			"Minor Addition (Alcohol)"
 		],
+		"armor": {
+			"energy": 15,
+			"kinetic": 16
+		},
 		"implants": [
 			"Basic Biomods",
 			"Basic Mesh Inserts",
@@ -147,9 +151,17 @@
 			"Neurochem (Level 1)",
 			"Toxin Filters"
 		],
-		"armor": {
-			"energy": 15,
-			"kinetic": 16
-		}
+		"gear": [
+			"Backup Insurance (1 month)",
+			"Cuffband",
+			"Kick (2 doses)",
+			"Kinetic SMG (100 rounds regular ammo)",
+			"Monofilament Sword",
+			"Muse",
+			"Nanobandages (5)",
+			"Shock Gloves",
+			"Tactical Network Software",
+			"Wasp Knife"
+		]
 	}
 }

@@ -183,3 +183,15 @@
 	margin: 0 0 0 0;
 	width:190px;
 }
+
+.ep-gear {
+	position: absolute;
+	left: 72px;
+	top: 564px;
+}
+
+.ep-gear-item {
+	display: inline-block;
+	margin: 0 0 0 0;
+	width: 300px;
+}
