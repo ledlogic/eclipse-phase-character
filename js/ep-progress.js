@@ -10,25 +10,19 @@ ep.progress = {
 		ep.progress.$bar = $('.progress-bar');
 	},
 	show: function() {
-		ep.progress.pct = 10;
+		ep.progress.pct = 0;
 		ep.progress.$elm.show();
-		ep.progress.timer();
 	},
 	render: function() {
-		ep.progress.$bar.css('width', ep.progress.pct + '%').attr('aria-valuenow', ep.progress.pct);
+		var pct = ep.progress.pct;
+		ep.progress.$bar.css('width', pct + '%').attr('aria-valuenow', pct);
 	},
-	update: function() {
-		if (ep.progress.pct > 0) {
-			ep.progress.pct += 5;
-			ep.progress.render();	
-			ep.progress.timer();	
-		}
+	update: function(pct) {
+		ep.progress.pct = Math.max(0,Math.min(100, pct));
+		ep.progress.render();
 	},
 	hide: function(pct) {
 		ep.progress.pct = 0;
 		ep.progress.$elm.hide();	
-	},
-	timer: function() {
-		window.setTimeout(ep.progress.update, 10);
 	}
 };

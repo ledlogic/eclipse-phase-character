@@ -153,6 +153,9 @@
 		],
 		"gear": [
 			"Backup Insurance (1 month)",
+			"Bioweave Armor (Light)",
+			"Body Armor (Heavy)",
+			"Offensive Armor",
 			"Cuffband",
 			"Kick (2 doses)",
 			"Kinetic SMG (100 rounds regular ammo)",
@@ -160,8 +163,18 @@
 			"Muse",
 			"Nanobandages (5)",
 			"Shock Gloves",
+			"Shock Proof Mods",
 			"Tactical Network Software",
 			"Wasp Knife"
+		], 
+		"weapons": [
+			{
+				"name": "Kinetic Pistol",
+				"skill": 65,
+				"ap": -2,
+				"dv": "2d10+2",
+				"rounds": "100 regular rounds"
+			}
 		]
 	}
 }

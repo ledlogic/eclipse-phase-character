@@ -39,23 +39,38 @@ ep.character = {
 	render: function() {
 		ep.log("rendering char");
 
+		ep.progress.show();
+
 		ep.character.$front.html("");
 		ep.character.$back.html("");
 
 		ep.character.renderPlayer();
+		ep.progress.update(5);
 		ep.character.renderOverview();
+		ep.progress.update(15);
 		ep.character.renderAptitudes();
+		ep.progress.update(25);
 		ep.character.renderStats();
+		ep.progress.update(30);
 		ep.character.renderSkills();
+		ep.progress.update(35);
 		ep.character.renderRep();
+		ep.progress.update(40);
 		ep.character.renderTraits();
+		ep.progress.update(50);
 		ep.character.renderImplants();
+		ep.progress.update(60);
 		ep.character.renderArmor();
+		ep.progress.update(70);
 		ep.character.renderGear();
+		ep.progress.update(80);
+		ep.character.renderWeapons();
+		ep.progress.update(90);
 
 		$(".ep-nav-link.ep-nav-link-front").click();			
 
 		ep.nav.showLinks();
+		ep.progress.hide();
 	},
 	renderAptitudes: function() {
 		ep.log("rendering aptitudes");
@@ -199,7 +214,7 @@ ep.character = {
 		var $stats = $("<div class=\"ep-stats\"></div>");
 		_.each(stats, function(value, key) {
 			var h = value;
-			$elm = $("<span class=\"ep-stat ep-stat-" + key + "\" title=\"" + key.toUpperCase() + "\">" + h + "</span>");
+			var $elm = $("<span class=\"ep-stat ep-stat-" + key + "\" title=\"" + key.toUpperCase() + "\">" + h + "</span>");
 			$stats.append($elm);
 		});
 		ep.character.$front.append($stats);
@@ -211,7 +226,7 @@ ep.character = {
 		var traits = spec.traits;
 		var $traits = $("<div class=\"ep-traits\"></div>");
 		_.each(traits, function(value, key) {
-			$elm = $("<span class=\"ep-traits-item ep-traits-item-" + key + "\">" + value + "</span>");
+			var $elm = $("<span class=\"ep-traits-item ep-traits-item-" + key + "\">" + value + "</span>");
 			$traits.append($elm);
 		});
 		ep.character.$back.append($traits);
@@ -223,7 +238,7 @@ ep.character = {
 		var implants = spec.implants;
 		var $implants = $("<div class=\"ep-implants\"></div>");
 		_.each(implants, function(value, key) {
-			$elm = $("<span class=\"ep-implants-item ep-implants-item-" + key + "\">" + value + "</span>");
+			var $elm = $("<span class=\"ep-implants-item ep-implants-item-" + key + "\">" + value + "</span>");
 			$implants.append($elm);
 		});
 		ep.character.$back.append($implants);
@@ -235,7 +250,7 @@ ep.character = {
 		var armor = spec.armor;
 		var $armor = $("<div class=\"ep-armor\"></div>");
 		_.each(armor, function(value, key) {
-			$elm = $("<span class=\"ep-armor-item ep-armor-item-" + key + "\" title=\"" + key + "\">" + value + "</span>");
+			var $elm = $("<span class=\"ep-armor-item ep-armor-item-" + key + "\" title=\"" + key + "\">" + value + "</span>");
 			$armor.append($elm);
 		});
 		ep.character.$front.append($armor);
@@ -247,9 +262,26 @@ ep.character = {
 		var gear = spec.gear;
 		var $gear = $("<div class=\"ep-gear\"></div>");
 		_.each(gear, function(value, key) {
-			$elm = $("<span class=\"ep-gear-item ep-gear-item-" + key + "\">" + value + "</span>");
+			var $elm = $("<span class=\"ep-gear-item ep-gear-item-" + key + "\">" + value + "</span>");
 			$gear.append($elm);
 		});
 		ep.character.$back.append($gear);
 	},
+	renderWeapons: function() {
+		ep.log("rendering weapons");
+
+		var spec = ep.character.spec;
+		var weapons = spec.weapons;
+		var i = 0;
+		var $weapons = $("<div class=\"ep-weapons\"></div>");
+		_.each(weapons, function(weapon) {
+			var $weapon = $("<div class=\"ep-weapon\"></div>");
+			_.each(weapon, function(value, key) {
+				var $elm = $("<span class=\"ep-weapon-item ep-weapon-item-" + key + "\">" + value + "</span>");
+				$weapon.append($elm);
+			});
+			$weapons.append($weapon);
+		});
+		ep.character.$front.append($weapons);
+	}
 };

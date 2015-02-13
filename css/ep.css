@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Heliotype LET Plain Medium'; /* eclipse phase title font is heliotype */
 }
 
+.progress-bar {
+	background: #ac2629;
+}
+
 .ep-nav {
 	height: 30px;
 	margin: 8px 0 8px 0;
@@ -23,13 +27,16 @@ h1, h2, h3, h4, h5, h6 {
 	width: 1013px;
 }
 
-.ep-nav ul {
+.ep-nav .col-md-6 {
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .ep-nav ul li {
 	display: inline-block;
 	height: 8px;
-	margin: 0 8px 0 8px;
+	margin: 0 0 0 8px;
+	text-transform: uppercase;
 }
 
 .ep-nav a, .ep-nav label,.ep-nav select {
@@ -44,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ep-nav-link {
-	color: red;
+	color: #ac2629;
 }
 
 .ep-nav-link:hover {
@@ -57,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ep-nav-link.ep-nav-link-active:hover {
-	color: red;
+	color: #ac2629;
 	text-decoration: none;
 }
 
