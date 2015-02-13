@@ -30,7 +30,7 @@ ep.character = {
 			setTimeout(ep.character.render,10);
 		})
 		.fail(function() {
-			alert("Error: unable to load character list.");
+			alert("Error: unable to load character.");
 		})
 		.always(function() {
 			ep.progress.hide();

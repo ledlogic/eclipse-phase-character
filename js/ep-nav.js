@@ -14,7 +14,7 @@ ep.nav = {
 
 		var $that = $(this);
 		var href = $that.attr("href").substring(1);
-		$that.siblings().removeClass("ep-nav-link-active")
+		$(".ep-nav-link").removeClass("ep-nav-link-active")
 		$that.addClass("ep-nav-link-active");
 		$(".ep-page").hide();
 		$("." + href).show();

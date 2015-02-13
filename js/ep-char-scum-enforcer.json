@@ -1,6 +1,6 @@
 {
 	"spec": {
-		"player": "Jeff Conrad",
+		"player": "Player Name",
 		"overview": {
 			"name": "Scum Enforcer",
 			"background": "Scumborm",
@@ -70,7 +70,7 @@
 				"Infiltration,COO,50 5 55",
 				"Infosec,COG*",
 				"Interfacing,COG",
-				"Intimidation,SAV,60 60",
+				"Intimidation,SAV,60 0 60",
 				"Investigation,INT",
 				"Kinesics,SAV,40 0 40",
 				"Kinetic Weapons,COO,60 5 65",

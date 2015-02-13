@@ -1,0 +1,170 @@
+{
+	"spec": {
+		"player": "Player Name",
+		"overview": {
+			"name": "Merc Infomorph",
+			"background": "Infomorph",
+			"faction": "Mercurial",
+			"morph": "Fury",
+			"gender": "Female",
+			"age": 30,
+			"moxie": 4,
+			"rez": 0,
+			"motivations": "+AGI Rights, +Personal Development, + Sousveillance"
+		},
+		"aptitudes": {
+			"base": {
+				"cog": 20,
+				"coo": 10,
+				"int": 15,
+				"ref": 15,
+				"sav": 20,
+				"som": 5,
+				"wil": 20
+				},
+			"morph": {
+				"cog": 0,
+				"coo": 0,
+				"int": 0,
+				"ref": 0,
+				"sav": 0,
+				"som": 0,
+				"wil": 0
+			}
+		},
+		"stats": {
+			"mox": 4,
+			"tt": 8,
+			"luc": 40,
+			"ir": 80,
+			"wt": 0,
+			"dur": 0,
+			"dr": 0,
+			"init": 6,
+			"spd": "1 (3)",
+			"db": "0"
+		},
+		"skills": {
+			"0": [
+				"Animal Handling,SAV",
+				"Beam Weapons,COO",
+				"Blades,SOM",
+				"Climbing,SOM",
+				"Clubs,SOM",
+				"Control,WIL*",
+				"Deception,SAV,40 0 40",
+				"Demolitions,COG*",
+				"Disguise,INT",
+				"Exotic Melee:,SOM",
+				"Exotic Melee:,SOM",
+				"Exotic Ranged:,COO",
+				"Exotic Ranged:,COO",
+				"Flight,SOM",
+				"Fray,REF,35 0 35",
+				"Free Fall,REF,30 0 30",
+				"Freerunning,SOM",
+				"Gunnery,INT,50 0 50",
+				"Hardware:,COG,",
+				"Hardware:,COG",
+				"Impersonation,SAV,45 0 45",
+				"Infiltration,COO,50 0 50",
+				"Infosec,COG*,60 0 60",
+				"Interfacing,COG,50 0 50",
+				"Intimidation,SAV",
+				"Investigation,INT",
+				"Kinesics,SAV,50 0 50",
+				"Kinetic Weapons,COO",
+				"Medicine,COG",
+				"Medicine,COG",
+				"Navigation,INT",
+				"Networking:Criminals,SAV,50 0 50",
+				"Networking:Firewall,SAV,40 0 40",
+				"Networking:Hypercorps,SAV,40 0 40",
+				"Networking:,SAV",
+				"Palming,COO",
+				"Perception,INT,45 0 45",
+				"Persuasion,SAV"
+			],
+			"1": [
+				"Pilot:Aircraft,REF,55 0 55",
+				"Pilot:Anthroform,REF,55 0 55",
+				"Programming,COG*,60 0 60",
+				"Protocol,SAV",
+				"Psi Assault,WIL*",
+				"Psychosurgery,INT",
+				"Research,COG,60 0 60",
+				"Scrounging,INT",
+				"Seeker Weapons,COO",
+				"Sense,INT*",
+				"Spray Weapons,COO",
+				"Swimming,SOM",
+				"Throwing Weapons,COO",
+				"Unarmed Combat",
+				"Pilot:Groundcraft,REF,30 0 30"
+			],
+			"2": [
+				"Academics:Anthropology,COG,60 0 60",
+				"Academics:Computer Science,COG,60 0 60",
+				"Academics:Physics,COG,50 0 50",
+				"Academics:,COG",
+				"Art:Digital Art,INT,50,0,50",
+				"Art:,INT",
+				"Art:,INT",
+				"Art:,INT",
+				"Interest:Crime Groups,COG,60 0 60",
+				"Interest:Cultural Trends,COG,45 0 45",
+				"Interest:,COG",
+				"Interest:,COG",
+				"Language:Native English,INT,90 0 90",
+				"Language:Cantonese,INT,55 5 60",
+				"Language:,INT",
+				"Language:,INT",
+				"Profession:Forensics,COG,60 0 60",
+				"Profession:Police Procedures,COG,50 0 50",
+				"Profession:Security Systems,COG,45 0 45",
+				"Profession:,COG"
+			]
+		},
+		"rep": {
+			"@-rep": 0,
+			"c-rep": 20,
+			"e-rep": 0,
+			"f-rep": 0,
+			"g-rep": 10,
+			"i-rep": 20,
+			"r-rep": 0
+		},
+		"traits": [
+			"Real World Naiveté",
+			"Social Stigma (AGI)"
+		],
+		"armor": {
+			"energy": 0,
+			"kinetic": 0
+		},
+		"implants": [
+		],
+		"gear": [
+			"AR Illusions Software",
+			"Backup Insurance (1 month)",
+			"Covert Ops Tool",
+			"Creepy",
+			"Exploit Software",
+			"Facial/Image Recognition Software",
+			"Gnat Bots (2)",
+			"Guardian Bot",
+			"Holographic Projector",
+			"Juice Narcoalgorithm",
+			"Saucer Bot",
+			"Scout Nanoswarm",
+			"Servitor Bot",
+			"Smart Dust",
+			"Sniffer Software",
+			"Tactical Network Software",
+			"Tracking Software",
+			"XP Clips (5)"
+		], 
+		"weapons": [
+		]
+	}
+}
