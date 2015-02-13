@@ -174,9 +174,9 @@
 }
 
 .ep-implants-item {
-	display: block;
+	display: inline-block;
 	margin: 0 0 0 0;
-	width: 1000px;
+	width: 400px;
 }
 
 .ep-armor {
