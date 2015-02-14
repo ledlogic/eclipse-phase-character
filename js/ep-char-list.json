@@ -1,6 +1,10 @@
 {
 	"characters": [
 		{
+			"name": "EP-Black Marketeer",
+			"uri": "ep-char-black-marketeer.json"
+		},
+		{
 			"name": "EP-Dig Ops Specialist",
 			"uri": "ep-char-dig-ops.json"
 		},

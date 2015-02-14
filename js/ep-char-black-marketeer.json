@@ -1,0 +1,181 @@
+{
+	"spec": {
+		"player": "",
+		"overview": {
+			"name": "",
+			"background": "Indenture",
+			"faction": "Brinker",
+			"morph": "Digger",
+			"gender": "",
+			"age": "",
+			"moxie": 3,
+			"rez": 0,
+			"motivations": "+Colonization,+Exoplanet Autonomy,+Infugee Rights"
+		},
+		"aptitudes": {
+			"base": {
+				"cog": 15,
+				"coo": 15,
+				"int": 20,
+				"ref": 15,
+				"sav": 15,
+				"som": 15,
+				"wil": 10
+				},
+			"morph": {
+				"cog": 0,
+				"coo": 0,
+				"int": 0,
+				"ref": 0,
+				"sav": 5,
+				"som": 0,
+				"wil": 0
+			}
+		},
+		"stats": {
+			"mox": 4,
+			"tt": 4,
+			"luc": 20,
+			"ir": 40,
+			"wt": 6,
+			"dur": 30,
+			"dr": 45,
+			"init": 7,
+			"spd": 1,
+			"db": ""
+		},
+		"skills": {
+			"0": [
+				"Animal Handling,SAV",
+				"Beam Weapons,COO,40 0 40",
+				"Blades,SOM",
+				"Climbing,SOM,30 5 40",
+				"Clubs,SOM",
+				"Control,WIL*",
+				"Deception,SAV",
+				"Demolitions,COG*,60 5 65",
+				"Disguise,INT",
+				"Exotic Melee:,SOM",
+				"Exotic Melee:,SOM",
+				"Exotic Ranged:,COO",
+				"Exotic Ranged:,COO",
+				"Flight,SOM",
+				"Fray,REF,45 0 45",
+				"Free Fall,REF",
+				"Freerunning,SOM,35 0 35",
+				"Gunnery,INT",
+				"Hardware:,COG",
+				"Hardware:,COG",
+				"Impersonation,SAV",
+				"Infiltration,COO,40 0 40",
+				"Infosec,COG*,40 0 40",
+				"Interfacing,COG,40 0 40",
+				"Intimidation,SAV",
+				"Investigation,INT",
+				"Kinesics,SAV,60 5 65",
+				"Kinetic Weapons,COO",
+				"Medicine:,COG",
+				"Medicine:,COG",
+				"Navigation,INT",
+				"Networking:Autonomists,SAV,45 5 50",
+				"Networking:Criminal,SAV,60 5 65",
+				"Networking:Hypercorps,SAV,60 5 65",
+				"Networking:Media,SAV,45 5 50",
+				"Palming,COO",
+				"Perception,INT,50 0 50",
+				"Persuasion,SAV,60 5 65"
+			],
+			"1": [
+				"Pilot:Groundcraft,REF,25 0 25",
+				"Pilot,REF",
+				"Programming,COG*",
+				"Protocol,SAV,55 5 60",
+				"Psi Assault,WIL*",
+				"Psychosurgery,INT",
+				"Research,COG",
+				"Scrounging,INT,40 0 40",
+				"Seeker Weapons,COO",
+				"Sense,INT*",
+				"Spray Weapons,COO,35 0 35",
+				"Swimming,SOM,25 15 40",
+				"Throwing Weapons,COO",
+				"Unarmed Combat,SOM,55 0 55",
+				"",
+				""
+			],
+			"2": [
+				"Academics:Economics,COG,60 0 60",
+				"Academics:Sociology,COG,55 0 55",
+				"Academics:,COG",
+				"Academics:,COG",
+				"Art:,INT",
+				"Art:,INT",
+				"Art:,INT",
+				"Art:,INT",
+				"Interest:Black Markets,COG,60 0 60",
+				"Interest:Smuggling,COG,55 0 55",
+				"Interest:,COG",
+				"Interest:,COG",
+				"Language:Native Portuguese,INT,85 0 85",
+				"Language:English,INT,45 0 45",
+				"Language:,INT",
+				"Language:,INT",
+				"Profession:Appraisal,COG,60 0 60",
+				"Profession:Con Schemes,COG,55 0 55",
+				"Profession:Info Brokerage,COG,50 0 50",
+				"Profession:,COG"
+			]
+		},
+		"rep": {
+			"@-rep": 20,
+			"c-rep": 70,
+			"e-rep": 20,
+			"f-rep": 30,
+			"g-rep": 50,
+			"i-rep": 10,
+			"r-rep": 0
+		},
+		"traits": [
+			"Enemy (Rival Criminal)"
+		],
+		"armor": {
+			"energy": 8,
+			"kinetic": 9
+		},
+		"implants": [
+			"Basic Biomods",
+			"Basic Mesh Inserts",
+			"Bioweave (Light)",
+			"Cortical Stack",
+			"Eelware",
+			"Endocrine control",
+			"Enhanced Vision",
+			"Medichines",
+			"Nanophages"
+		],
+		"gear": [
+			"Backup Insurance (1 month)", 
+			"Cleaner Nanoswarm",
+			"Fake Ego ID",
+			"Guardian Bot",
+			"Muse",
+			"Nanobandage",
+			"Nanodetector",
+			"Overload Grenade",
+			"Servitor Bot",
+			"Shredder (100 shots)",
+			"Vacsuit (standard)",
+			"Tactical Network Software"
+		], 
+		"weapons": [
+			{},
+			{
+				"name": "Laser Pulser",
+				"skill": 55,
+				"ap": 0,
+				"dv": "2d10",
+				"rounds": ""
+			}
+		]
+	}
+}
