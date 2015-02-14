@@ -121,8 +121,8 @@
 				"Language:,INT",
 				"Language:,INT",
 				"Profession:Colony Admin,COG,65 0 65",
-				"Profession:,COG",
-				"Profession:,COG",
+				"Profession:Dig Ops,COG,75 0 75",
+				"Profession:Terraforming,COG,55 0 55",
 				"Profession:,COG"
 			]
 		},
