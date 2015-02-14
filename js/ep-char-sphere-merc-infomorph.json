@@ -5,9 +5,9 @@
 			"name": "",
 			"background": "Infomorph",
 			"faction": "Mercurial",
-			"morph": "Fury",
+			"morph": "Sphere",
 			"gender": "",
-			"age": 30,
+			"age": "",
 			"moxie": 4,
 			"rez": 0,
 			"motivations": "+AGI Rights,+Personal Development,+Sousveillance"
@@ -23,11 +23,11 @@
 				"wil": 20
 				},
 			"morph": {
-				"cog": 0,
-				"coo": 0,
+				"cog": 10,
+				"coo": 5,
 				"int": 0,
-				"ref": 0,
-				"sav": 0,
+				"ref": 5,
+				"sav": 5,
 				"som": 0,
 				"wil": 0
 			}
@@ -37,11 +37,11 @@
 			"tt": 8,
 			"luc": 40,
 			"ir": 80,
-			"wt": 0,
-			"dur": 0,
+			"wt": 7,
+			"dur": 35,
 			"dr": 0,
 			"init": 6,
-			"spd": "1 (3)",
+			"spd": "*",
 			"db": "0"
 		},
 		"skills": {
@@ -136,28 +136,42 @@
 		},
 		"traits": [
 			"Real World Naiveté",
-			"Social Stigma (AGI)"
+			"Social Stigma (AGI)",
+			"Lemon",
+			"Social Stigma"
 		],
 		"armor": {
-			"energy": 0,
-			"kinetic": 0
+			"energy": 6,
+			"kinetic": 6
 		},
 		"implants": [
+			"360 degree Vision",
+			"Access Jacks",
+			"Basic Mesh Inserts",
+			"Chameleon Skin",
+			"Cortical Stack",
+			"Cyberbrain",
+			"Enhanced Vision",
+			"Extra limbs (4 arms)",
+			"Gas-Jet system",
+			"Mneumonic Augmentation",
+			"Puppet Sock",
+			"Telescoping Limbs"
 		],
 		"gear": [
 			"AR Illusions Software",
-			"Backup Insurance (1 month)",
+			"-Backup Insurance (1 month)",
 			"Covert Ops Tool",
-			"Creepy",
+			"-Creepy",
 			"Exploit Software",
 			"Facial/Image Recognition Software",
-			"Gnat Bots (2)",
+			"-Gnat Bots (2)",
 			"Guardian Bot",
 			"Holographic Projector",
 			"Juice Narcoalgorithm",
-			"Saucer Bot",
-			"Scout Nanoswarm",
-			"Servitor Bot",
+			"-Saucer Bot",
+			"-Scout Nanoswarm",
+			"-Servitor Bot",
 			"Smart Dust",
 			"Sniffer Software",
 			"Tactical Network Software",
