@@ -37,9 +37,9 @@
 			"tt": 10,
 			"luc": 50,
 			"ir": 100,
-			"wt": "8 (10)",
-			"dur": "40 (50)",
-			"dr": "60 (75)",
+			"wt": 8,
+			"dur": 40,
+			"dr": 60,
 			"init": 6,
 			"spd": 1,
 			"db": ""
@@ -99,7 +99,7 @@
 				"Spray Weapons,COO",
 				"Swimming,SOM,25 15 40",
 				"Throwing Weapons,COO",
-				"Unarmed Combat,SOM,35 15 50,",
+				"Unarmed Combat,SOM,35 15 50",
 				"",
 				""
 			],
