@@ -1,12 +1,16 @@
 {
 	"characters": [
 		{
-			"name": "EP-Scum Barge Chemist",
-			"uri": "ep-char-scum-chemist.json"
-		},
-		{
 			"name": "EP-Merc Infomorph",
 			"uri": "ep-char-merc-infomorph.json"
+		},
+		{
+			"name": "EP-Machine Hunter",
+			"uri": "ep-char-machine-hunter.json"
+		},
+		{
+			"name": "EP-Scum Barge Chemist",
+			"uri": "ep-char-scum-chemist.json"
 		},
 		{
 			"name": "EP-Scum Enforcer",
