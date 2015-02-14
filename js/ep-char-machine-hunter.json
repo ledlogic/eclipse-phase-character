@@ -10,7 +10,7 @@
 			"age": "",
 			"moxie": 2,
 			"rez": 0,
-			"motivations": "+Reclaiming Earth, -AGI Rights, -TITAN Technology"
+			"motivations": "+Reclaiming Earth,-AGI Rights,-TITAN Technology"
 		},
 		"aptitudes": {
 			"base": {
@@ -175,11 +175,12 @@
 			"Tactical Network Software"
 		], 
 		"weapons": [
+			{},
 			{
-				"name": "Heavy Pistol",
-				"skill": 30,
-				"ap": -4,
-				"dv": "2d10+4",
+				"name": "Plasma Rifle",
+				"skill": 40,
+				"ap": -8,
+				"dv": "3d10+20",
 				"rounds": "500"
 			}
 		]

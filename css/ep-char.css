@@ -69,7 +69,8 @@
 }
 
 .ep-aptitudes-total .ep-aptitude {
-	font-family: 'Lato Black';
+	font-family: 'Lato Black', 'Lato', 'Helvetica', sans-serif;
+	font-weight: bold;
 }
 
 .ep-stats {
@@ -126,13 +127,13 @@
 }
 
 .ep-skill-item-2 {
-	font-family: 'Lato Black';
+	font-family: 'Lato Black', 'Lato', 'Helvetica', sans-serif;
 }
 
 .ep-skill-item-subset {
 	text-align: left;
 	text-overflow: ellipses;
-	width: 100px;
+	width: 112px;
 }
 
 .ep-rep {
@@ -210,7 +211,7 @@
 }
 
 .ep-weapon {
-
+	height: 32px;
 }
 
 .ep-weapon-item {

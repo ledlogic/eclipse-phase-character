@@ -10,7 +10,7 @@
 			"age": 30,
 			"moxie": 3,
 			"rez": 0,
-			"motivations": "+All the Drugs +Hedonism +Individualism"
+			"motivations": "+All the Drugs,+Hedonism,+Individualism"
 		},
 		"aptitudes": {
 			"base": {
@@ -177,6 +177,7 @@
 			"Viewers"
 		], 
 		"weapons": [
+			{},
 			{
 				"name": "Heavy Pistol",
 				"skill": 30,
