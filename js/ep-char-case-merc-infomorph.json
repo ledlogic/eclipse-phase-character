@@ -5,7 +5,7 @@
 			"name": "",
 			"background": "Infomorph",
 			"faction": "Mercurial",
-			"morph": "Fury",
+			"morph": "Case",
 			"gender": "Female",
 			"age": 30,
 			"moxie": 4,
@@ -27,7 +27,7 @@
 				"coo": 0,
 				"int": 0,
 				"ref": 0,
-				"sav": 0,
+				"sav": -5,
 				"som": 0,
 				"wil": 0
 			}
@@ -136,28 +136,35 @@
 		},
 		"traits": [
 			"Real World Naiveté",
-			"Social Stigma (AGI)"
+			"Social Stigma (AGI)",
+			"Lemon",
+			"Social Stigma"
 		],
 		"armor": {
-			"energy": 0,
-			"kinetic": 0
+			"energy": 4,
+			"kinetic": 4
 		},
 		"implants": [
+			"Access Jacks",
+			"Basic Mesh Inserts",
+			"Cortical Stack",
+			"Cyberbrain",
+			"Mneumonic Augmentation"
 		],
 		"gear": [
 			"AR Illusions Software",
-			"Backup Insurance (1 month)",
+			"-Backup Insurance (1 month)",
 			"Covert Ops Tool",
-			"Creepy",
+			"-Creepy",
 			"Exploit Software",
 			"Facial/Image Recognition Software",
-			"Gnat Bots (2)",
+			"-Gnat Bots (2)",
 			"Guardian Bot",
 			"Holographic Projector",
 			"Juice Narcoalgorithm",
-			"Saucer Bot",
-			"Scout Nanoswarm",
-			"Servitor Bot",
+			"-Saucer Bot",
+			"-Scout Nanoswarm",
+			"-Servitor Bot",
 			"Smart Dust",
 			"Sniffer Software",
 			"Tactical Network Software",

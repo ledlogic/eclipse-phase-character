@@ -1,6 +1,34 @@
 {
 	"characters": [
 		{
+			"name": "EP-Case-Black Marketeer",
+			"uri": "ep-char-case-black-marketeer.json"
+		},
+		{
+			"name": "EP-Case-Dig Ops Specialist",
+			"uri": "ep-char-case-dig-ops.json"
+		},
+		{
+			"name": "EP-Case-Merc Infomorph",
+			"uri": "ep-char-case-merc-infomorph.json"
+		},
+		{
+			"name": "EP-Case-Machine Hunter",
+			"uri": "ep-char-case-machine-hunter.json"
+		},
+		{
+			"name": "EP-Case-Scum Barge Chemist",
+			"uri": "ep-char-case-scum-chemist.json"
+		},
+		{
+			"name": "EP-Case-Scum Enforcer",
+			"uri": "ep-char-case-scum-enforcer.json"
+		},
+		{
+			"name": "EP-Case-Scum Techie",
+			"uri": "ep-char-case-scum-techie.json"
+		},
+		{
 			"name": "EP-Black Marketeer",
 			"uri": "ep-char-black-marketeer.json"
 		},

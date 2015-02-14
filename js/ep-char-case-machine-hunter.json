@@ -1,0 +1,181 @@
+{
+	"spec": {
+		"player": "",
+		"overview": {
+			"name": "",
+			"background": "",
+			"faction": "Reclaimer",
+			"morph": "Case",
+			"gender": "",
+			"age": "",
+			"moxie": 2,
+			"rez": 0,
+			"motivations": "+Reclaiming Earth,-AGI Rights,-TITAN Technology"
+		},
+		"aptitudes": {
+			"base": {
+				"cog": 15,
+				"coo": 15,
+				"int": 15,
+				"ref": 15,
+				"sav": 10,
+				"som": 20,
+				"wil": 15
+				},
+			"morph": {
+				"cog": 0,
+				"coo": -5,
+				"int": 0,
+				"ref": 0,
+				"sav": 0,
+				"som": 0,
+				"wil": 0
+			}
+		},
+		"stats": {
+			"mox": 2,
+			"tt": 8,
+			"luc": 40,
+			"ir": 80,
+			"wt": 8,
+			"dur": 40,
+			"dr": 60,
+			"init": 6,
+			"spd": 1,
+			"db": ""
+		},
+		"skills": {
+			"0": [
+				"Animal Handling,SAV",
+				"Beam Weapons,COO,35 5 40",
+				"Blades,SOM",
+				"Climbing,SOM",
+				"Clubs,SOM",
+				"Control,WIL*",
+				"Deception,SAV",
+				"Demolitions,COG*,55 0 55",
+				"Disguise,INT",
+				"Exotic Melee:,SOM",
+				"Exotic Melee:,SOM",
+				"Exotic Ranged:,COO",
+				"Exotic Ranged:,COO",
+				"Flight,SOM",
+				"Fray,REF,55 0 55",
+				"Free Fall,REF",
+				"Freerunning,SOM,50 5 50",
+				"Gunnery,INT",
+				"Hardware:Armorer,COG,55 0 55",
+				"Hardware:Electronics,COG,35 0 35",
+				"Impersonation,SAV",
+				"Infiltration,COO,45 5 50",
+				"Infosec,COG*, 45 0 45",
+				"Interfacing,COG, 45 0 45",
+				"Intimidation,SAV",
+				"Investigation,INT",
+				"Kinesics,SAV",
+				"Kinetic Weapons,COO,55 5 60",
+				"Medicine:,COG",
+				"Medicine:,COG",
+				"Navigation,INT",
+				"Networking:Ecologists,SAV,30 0 30",
+				"Networking:Firewall,SAV,20 0 20",
+				"Networking:,SAV",
+				"Networking:,SAV",
+				"Palming,COO",
+				"Perception,INT,45 0 45",
+				"Persuasion,SAV"
+			],
+			"1": [
+				"Pilot:Groundcraft,REF,40 0 40",
+				"Pilot,REF",
+				"Programming,COG*,60 5 65",
+				"Protocol,SAV,35 0 35",
+				"Psi Assault,WIL*",
+				"Psychosurgery,INT",
+				"Research,COG",
+				"Scrounging,INT,45 0 45",
+				"Seeker Weapons,COO,63 5 68",
+				"Sense,INT*",
+				"Spray Weapons,COO",
+				"Swimming,SOM",
+				"Throwing Weapons,COO,45 5 50",
+				"Unarmed Combat,SOM",
+				"",
+				""
+			],
+			"2": [
+				"Academics:Nanotechnology,COG,45 0 45",
+				"Academics:,COG",
+				"Academics:,COG",
+				"Academics:,COG",
+				"Art:Metal Sculpture,INT,45 0 45",
+				"Art:,INT",
+				"Art:,INT",
+				"Art:,INT",
+				"Interest:Reclaimer Outposts,COG,45 0 45",
+				"Interest:TITAN Tech,COG,63 0 63",
+				"Interest:,COG",
+				"Interest:,COG",
+				"Language:Native Thai,INT,95 0 95",
+				"Language:,INT",
+				"Language:,INT",
+				"Language:,INT",
+				"Profession:Scavenging,COG,45 0 45",
+				"Profession:Squad Tactics,COG,55 0 55",
+				"Profession:Wrecking Machines,COG,55 0 55",
+				"Profession:,COG"
+			]
+		},
+		"rep": {
+			"@-rep": 0,
+			"c-rep": 30,
+			"e-rep": 60,
+			"f-rep": 0,
+			"g-rep": 0,
+			"i-rep": 30,
+			"r-rep": 0
+		},
+		"traits": [
+			"Brave",
+			"Addiction (BringIt, Moderate)",
+			"Lemon",
+			"Social Stigma"
+		],
+		"armor": {
+			"energy": 4,
+			"kinetic": 4
+		},
+		"implants": [
+			"Access Jacks",
+			"Basic Mesh Inserts",
+			"Cortical Stack",
+			"Cyberbrain",
+			"Mneumonic Augmentation"
+		],
+		"gear": [
+			"-Backup Insurance (3 months)",
+			"-Bioweave  (Light)",
+			"-Body Armor (Heavy)",
+			"Ablative Patches",
+			"Fireproofing Mods",
+			"-Full Helmet (22/21)",
+			"-Bringit (5 doses)",
+			"Machine Gun",
+			"(200 rounds regular ammo)",
+			"(300 rounds AP ammo)",
+			"-Muse",
+			"Seeker Rifle (10 HEAP Minimissles)",
+			"Tactical Network Software"
+		], 
+		"weapons": [
+			{},
+			{
+				"name": "Plasma Rifle",
+				"skill": 40,
+				"ap": -8,
+				"dv": "3d10+20",
+				"rounds": "500"
+			}
+		]
+	}
+}

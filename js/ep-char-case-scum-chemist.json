@@ -5,7 +5,7 @@
 			"name": "",
 			"background": "Scumborm",
 			"faction": "Scum",
-			"morph": "Ruster",
+			"morph": "Case",
 			"gender": "Male",
 			"age": 30,
 			"moxie": 3,
@@ -23,12 +23,12 @@
 				"wil": 20
 				},
 			"morph": {
-				"cog": 5,
-				"coo": 0,
+				"cog": 0,
+				"coo": -5,
 				"int": 0,
 				"ref": 0,
 				"sav": 0,
-				"som": 15,
+				"som": 0,
 				"wil": 0
 			}
 		},
@@ -136,43 +136,39 @@
 			"r-rep": 50
 		},
 		"traits": [
-			"None"
+			"Lemon",
+			"Social Stigma"
 		],
 		"armor": {
-			"energy": 10,
-			"kinetic": 10
+			"energy": 4,
+			"kinetic": 4
 		},
 		"implants": [
-			"Basic Biomods",
+			"Access Jacks",
 			"Basic Mesh Inserts",
 			"Cortical Stack",
-			"Cyberlimb Plus (2)",
-			"Drug Glands (Neem)",
-			"Enhanced Hearing",
-			"Enhanced Smell",
-			"Enhanced Vision",
-			"Medichines",
-			"T-Ray Emitter"
+			"Cyberbrain",
+			"Mneumonic Augmentation"
 		],
 		"gear": [
-			"Buzz (5 doses)",
-			"Comfurt (5 doses)",
+			"-Buzz (5 doses)",
+			"-Comfurt (5 doses)",
 			"Creepy",
-			"Drive (4 doses)",
-			"Grin (4 doses)",
-			"Hither (5 doses)",
-			"Juice (5 doses)",
-			"Kick (2 doses)",
-			"Klar (3 doses)",
+			"-Drive (4 doses)",
+			"-Grin (4 doses)",
+			"-Hither (5 doses)",
+			"-Juice (5 doses)",
+			"-Kick (2 doses)",
+			"-Klar (3 doses)",
 			"Maker",
 			"Mobile Lab",
-			"Mono No Aware (5 doses)",
-			"Neem (4 doses)",
-			"Orbital Hash (5 doses)",
-			"Phlo (4 doses)",
+			"-Mono No Aware (5 doses)",
+			"-Neem (4 doses)",
+			"-Orbital Hash (5 doses)",
+			"-Phlo (4 doses)",
 			"Portable Sensor",
-			"Servitor Bot",
-			"Smart Clothing",
+			"-Servitor Bot",
+			"-Smart Clothing",
 			"Utilitool",
 			"Viewers"
 		], 
