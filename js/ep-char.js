@@ -130,12 +130,12 @@ ep.character = {
 		var $overview = $("<div class=\"ep-overview\"></div>");
 		_.each(overview, function(value, key) {
 			var h = value + "";
-			if (!h) {
-				h = "&nbsp;";
-			}
 			if (h.indexOf(",") > -1) {
 				h = h.split(",");
 				h = h.join("<br/>");
+			}
+			if (!h) {
+				h = "&nbsp;";
 			}
 			$elm = $("<span class=\"ep-overview-item ep-overview-item-" + key + "\">" + h + "</span>");
 			$overview.append($elm);

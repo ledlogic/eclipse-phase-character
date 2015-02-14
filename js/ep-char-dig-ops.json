@@ -1,0 +1,193 @@
+{
+	"spec": {
+		"player": "",
+		"overview": {
+			"name": "",
+			"background": "Indenture",
+			"faction": "Brinker",
+			"morph": "Digger",
+			"gender": "",
+			"age": "",
+			"moxie": 3,
+			"rez": 0,
+			"motivations": "+Colonization,+Exoplanet Autonomy,+Infugee Rights"
+		},
+		"aptitudes": {
+			"base": {
+				"cog": 20,
+				"coo": 15,
+				"int": 15,
+				"ref": 15,
+				"sav": 15,
+				"som": 15,
+				"wil": 20
+				},
+			"morph": {
+				"cog": 0,
+				"coo": 0,
+				"int": 0,
+				"ref": 0,
+				"sav": 0,
+				"som": 15,
+				"wil": 5
+			}
+		},
+		"stats": {
+			"mox": 3,
+			"tt": 10,
+			"luc": 50,
+			"ir": 100,
+			"wt": "8 (10)",
+			"dur": "40 (50)",
+			"dr": "60 (75)",
+			"init": 6,
+			"spd": 1,
+			"db": ""
+		},
+		"skills": {
+			"0": [
+				"Animal Handling,SAV",
+				"Beam Weapons,COO,55 0 55",
+				"Blades,SOM",
+				"Climbing,SOM,30 15 45",
+				"Clubs,SOM,50 15 65",
+				"Control,WIL*",
+				"Deception,SAV",
+				"Demolitions,COG*,60 0 60",
+				"Disguise,INT",
+				"Exotic Melee:,SOM",
+				"Exotic Melee:,SOM",
+				"Exotic Ranged:,COO",
+				"Exotic Ranged:,COO",
+				"Flight,SOM",
+				"Fray,REF,55 0 55",
+				"Free Fall,REF",
+				"Freerunning,SOM,30 15 50",
+				"Gunnery,INT",
+				"Hardware:Groundcraft,COG,40 5 40",
+				"Hardware:Industrial,COG,40 0 40",
+				"Impersonation,SAV",
+				"Infiltration,COO",
+				"Infosec,COG*",
+				"Interfacing,COG,40 0 40",
+				"Intimidation,SAV,45 0 45",
+				"Investigation,INT",
+				"Kinesics,SAV,35 0 35",
+				"Kinetic Weapons,COO",
+				"Medicine:,COG",
+				"Medicine:,COG",
+				"Navigation,INT,40 0 40",
+				"Networking:Ecologists,SAV,55 0 55",
+				"Networking:Hypercorps,SAV,35 0 35",
+				"Networking:,SAV",
+				"Networking:,SAV",
+				"Palming,COO",
+				"Perception,INT,40 0 40",
+				"Persuasion,SAV"
+			],
+			"1": [
+				"Pilot:Groundcraft,REF,50 0 50",
+				"Pilot,REF",
+				"Programming,COG*,40 0 40",
+				"Protocol,SAV",
+				"Psi Assault,WIL*",
+				"Psychosurgery,INT",
+				"Research,COG,30 0 30",
+				"Scrounging,INT,35 0 35",
+				"Seeker Weapons,COO",
+				"Sense,INT*",
+				"Spray Weapons,COO",
+				"Swimming,SOM,25 15 40",
+				"Throwing Weapons,COO",
+				"Unarmed Combat,SOM,35 15 50,",
+				"",
+				""
+			],
+			"2": [
+				"Academics:Earth Science,COG,60 0 60",
+				"Academics:Xenoarcheology,COG,55 0 55",
+				"Academics:,COG",
+				"Academics:,COG",
+				"Art:,INT",
+				"Art:,INT",
+				"Art:,INT",
+				"Art:,INT",
+				"Interest:20th Russian Pop,COG,50 0 50",
+				"Interest:,COG",
+				"Interest:,COG",
+				"Interest:,COG",
+				"Language:Native Russian,INT,85 0 85",
+				"Language:Mandarin,INT,50 0 50",
+				"Language:,INT",
+				"Language:,INT",
+				"Profession:Colony Admin,COG,65 0 65",
+				"Profession:,COG",
+				"Profession:,COG",
+				"Profession:,COG"
+			]
+		},
+		"rep": {
+			"@-rep": 0,
+			"c-rep": 25,
+			"e-rep": 25,
+			"f-rep": 0,
+			"g-rep": 0,
+			"i-rep": 0,
+			"r-rep": 0
+		},
+		"traits": [
+			"Adaptability",
+			"Common Sense"
+		],
+		"armor": {
+			"energy":11,
+			"kinetic": 14
+		},
+		"implants": [
+			"Access Jacks",
+			"Basic Biomods",
+			"Basic Mesh Inserts",
+			"Bioweave Armor (Heavy)",
+			"Cortical Stack",
+			"Cyberbrain",
+			"Digging Claws",
+			"Direction Sense",
+			"Enhanced Vision",
+			"Hardened Skeleton",
+			"Medichines",
+			"Mneumonic Augmentation",
+			"Oxygen Reserve",
+			"Puppet Sock",
+			"Radiation Sense",
+			"T-Ray Emitter",
+			"Wrist-Mounted Tools"
+		],
+		"gear": [
+			"Backup Insurance", 
+			"Disassembly Tools", 
+			"Engineer Nanoswarm",
+			"Fabber",
+			"Microwave Agonizer",
+			"Motes",
+			"Muse",
+			"Nuclear Battery",
+			"Portable QE Comm",
+			"Portable Solarchive",
+			"Robotmule",
+			"Satnet in a Can",
+			"Shock Baton",
+			"Smart Vacsuit (11/14)",
+			"Superthermite Charge"
+		], 
+		"weapons": [
+			{},
+			{
+				"name": "Plasma Cutter",
+				"skill": 55,
+				"ap": -6,
+				"dv": "3d10+10",
+				"rounds": ""
+			}
+		]
+	}
+}

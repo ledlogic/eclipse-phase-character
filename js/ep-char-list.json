@@ -1,6 +1,10 @@
 {
 	"characters": [
 		{
+			"name": "EP-Dig Ops Specialist",
+			"uri": "ep-char-dig-ops.json"
+		},
+		{
 			"name": "EP-Merc Infomorph",
 			"uri": "ep-char-merc-infomorph.json"
 		},
