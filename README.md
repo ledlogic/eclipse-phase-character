@@ -22,3 +22,10 @@ Character sheets are set up in the js folder.  To add characters, change:
 
 * ep-char-list.json - On a live site, this could be generated via a directory / database parsing. For this standalone project, we'll just build a list.
 * ep-char-[key].json - This is the character sheet data.
+
+Additional Tools
+----------------
+
+Need random motivations, try
+* https://stackoverflow.com/a/15065490/987044
+* on /eclipse-phase-character/data/ep-motivations.csv
