@@ -1,0 +1,167 @@
+{
+	"spec": {
+		"player": "Repuk",
+		"overview": {
+			"name": "Repuk",
+			"background": "Lost",
+			"faction": "Lunar",
+			"morph": "Squid-Faced",
+			"gender": "",
+			"age": "",
+			"moxie": 7,
+			"rez": 0,
+			"motivations": "+ Open-source,+ Techno-progressivism,- Socialism"
+		},
+		"aptitudes": {
+			"base": {
+				"cog": 20,
+				"coo": 5,
+				"int": 30,
+				"ref": 5,
+				"sav": 20,
+				"som": 5,
+				"wil": 30
+				},
+			"morph": {
+				"cog": 0,
+				"coo": 5,
+				"int": 5,
+				"ref": 0,
+				"sav": 0,
+				"som": 10,
+				"wil": 0
+			}
+		},
+		"stats": {
+			"mox": 4,
+			"tt": 15,
+			"luc": 60,
+			"ir": 120,
+			"wt": 8,
+			"dur": 40,
+			"dr": 60,
+			"init": 8,
+			"spd": 1,
+			"db": "1.5"
+		},
+		"skills": {
+			"0": [
+				"Animal Handling,SAV",
+				"Beam Weapons,COO",
+				"Blades,SOM,15 10 25",
+				"Climbing,SOM",
+				"Clubs,SOM",
+				"Control,WIL*",
+				"Deception,SAV,60 0 60",
+				"Demolitions,COG*",
+				"Disguise,INT",
+				"Exotic Melee:,SOM",
+				"Exotic Melee:,SOM",
+				"Exotic Ranged:,COO",
+				"Exotic Ranged:,COO",
+				"Flight,SOM",
+				"Fray,REF,25 0 25",
+				"Free Fall,REF",
+				"Freerunning,SOM",
+				"Gunnery,INT",
+				"Hardware:,COG",
+				"Hardware:,COG",
+				"Impersonation,SAV,40 0 40",
+				"Infiltration,COO,10 5 15",
+				"Infosec,COG*",
+				"Interfacing,COG,30 0 30",
+				"Intimidation,SAV,70 0 70",
+				"Investigation,INT",
+				"Kinesics,SAV,70 0 70",
+				"Kinetic Weapons,COO",
+				"Medicine:Gene Therapy,COG,60 0 60",
+				"Medicine:Paramedic,COG,80 0 80",
+				"Navigation,INT",
+				"Networking:Autonomists,SAV,35 0 35",
+				"Networking:Ecologists,SAV,30 0 30",
+				"Networking:Hypercorps,SAV,40 0 40",
+				"Networking:,SAV",
+				"Palming,COO",
+				"Perception,INT,40 5 45",
+				"Persuasion,SAV,40 0 40"
+			],
+			"1": [
+				"Pilot:Watercraft,REF,35 0 35",
+				"Pilot:,REF",
+				"Programming,COG*",
+				"Protocol,SAV,80 0 80",
+				"Psi Assault,WIL*,50 0 50",
+				"Psychosurgery,INT,75 5 80",
+				"Research,COG,70 0 70",
+				"Scrounging: Bazaars,INT,30 5 35",
+				"Seeker Weapons,COO,40 5 45",
+				"Sense,INT*",
+				"Spray Weapons,COO,40 5 45",
+				"Swimming,SOM,15 10 25",
+				"Throwing Weapons,COO",
+				"Unarmed Combat,SOM,35 10 45",
+				"Medicine:Trauma Surgery,COG,60 0 60",
+				""
+			],
+			"2": [
+				"Academics:Memetics,COG,40 0 40",
+				"Academics:Sociology,COG,70 0 70",
+				"Academics:,COG",
+				"Academics:,COG",
+				"Art:Rhetoric,INT,60 5 65",
+				"Art:Speech,INT, 60 5 65",
+				"Art:,INT",
+				"Art:,INT",
+				"Interest:Blackmarket Drugs,COG,40 0 40",
+				"Interest:Cultural Memes,COG,40 0 40",
+				"Interest:,COG",
+				"Interest:,COG",
+				"Language:Arabic,INT,35 5 40",
+				"Language:Engish,INT,100 5 105",
+				"Language:Spanish,INT,40 5 45",
+				"Language:Telegu,INT,35 5 40",
+				"Profession:Accounting,COG,40 0 40",
+				"Profession:Culture Jamming,COG,40 0 40",
+				"Profession:Spin Control,COG,50 0 50",
+				"Profession:,COG"
+			]
+		},
+		"rep": {
+			"@-rep": 0,
+			"c-rep": 10,
+			"e-rep": 10,
+			"f-rep": 0,
+			"g-rep": 0,
+			"i-rep": 10,
+			"r-rep": 20
+		},
+		"traits": [
+			"Psi Trait",
+			"Social Stigma (lost)"
+		],
+		"armor": {
+			"energy": 3,
+			"kinetic": 4
+		},
+		"implants": [
+			"Basic Biomods",
+			"Basic Mesh Inserts (Disabled)",
+			"Cortical Stack",
+			"Enhanced Respiration",
+			"Enhanced Vision",
+			"Gills",
+			"Swim Bladder",
+			"Temperature Tolerance (Improved Cold)",
+			"Toxin Filters"
+		],
+		"gear": [
+			"5000 cr",
+			"Backup Insurance (1 months)",
+			"Bioweave (Light 3/4)"
+		], 
+		"weapons": [
+			{},
+			{}
+		]
+	}
+}

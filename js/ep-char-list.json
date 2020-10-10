@@ -71,8 +71,10 @@
 		{
 			"name": "EP-Sideways-Pstone",
 			"uri": "ep-char-pstone.json"
+		},
+		{
+			"name": "EP-Sideways-Repuk",
+			"uri": "ep-char-repuk.json"
 		}
-
-
 	]	
 }

@@ -166,10 +166,10 @@
 		"weapons": [
 			{
 				"name": "Bite",
-				"skill": 30,
-				"ap": -4,
-				"dv": "2d10+4",
-				"rounds": "500"
+				"skill": 0,
+				"ap": -2,
+				"dv": "2d10+3",
+				"rounds": ""
 			},
 			{}
 		]
