@@ -75,6 +75,10 @@
 		{
 			"name": "EP-Sideways-Repuk",
 			"uri": "ep-char-repuk.json"
+		},
+		{
+			"name": "EP-Sideways-Rust",
+			"uri": "ep-char-rust.json"
 		}
 	]	
 }

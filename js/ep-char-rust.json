@@ -1,0 +1,166 @@
+{
+	"spec": {
+		"player": "Rust",
+		"overview": {
+			"name": "Rust",
+			"background": "Re-instantiated",
+			"faction": "Anarchist",
+			"morph": "Squid-Faced",
+			"gender": "",
+			"age": "",
+			"moxie": 5,
+			"rez": 0,
+			"motivations": "+ Anarchism,+ Vengeance,- Slavery"
+		},
+		"aptitudes": {
+			"base": {
+				"cog": 25,
+				"coo": 15,
+				"int": 20,
+				"ref": 20,
+				"sav": 20,
+				"som": 10,
+				"wil": 20
+				},
+			"morph": {
+				"cog": 0,
+				"coo": 5,
+				"int": 5,
+				"ref": 0,
+				"sav": 0,
+				"som": 10,
+				"wil": 0
+			}
+		},
+		"stats": {
+			"mox": 5,
+			"tt": 8,
+			"luc": 40,
+			"ir": 80,
+			"wt": 8,
+			"dur": 40,
+			"dr": 60,
+			"init": 9,
+			"spd": 1,
+			"db": "2"
+		},
+		"skills": {
+			"0": [
+				"Animal Handling,SAV",
+				"Beam Weapons,COO,30 5 35",
+				"Blades,SOM,40 10 50",
+				"Climbing,SOM,20 10 30",
+				"Clubs,SOM",
+				"Control,WIL*,40 0 40",
+				"Deception,SAV,40 0 40",
+				"Demolitions,COG*,55 0 55",
+				"Disguise,INT",
+				"Exotic Melee:Morning Star,SOM,35 10 45",
+				"Exotic Melee:,SOM",
+				"Exotic Ranged:Slingshot,COO,35 10 45",
+				"Exotic Ranged:,COO",
+				"Flight,SOM,30 10 30",
+				"Fray,REF,50 0 50",
+				"Free Fall,REF,40 0 40",
+				"Freerunning,SOM,30 10 40",
+				"Gunnery,INT,35 5 40",
+				"Hardware:Armor,COG,55 0 55",
+				"Hardware:,COG",
+				"Impersonation,SAV",
+				"Infiltration,COO,45 5 50",
+				"Infosec,COG*",
+				"Interfacing,COG,40 0 40",
+				"Intimidation,SAV,40 0 40",
+				"Investigation,INT,35 5 40",
+				"Kinesics,SAV,30 0 30",
+				"Kinetic Weapons,COO",
+				"Medicine:,COG",
+				"Medicine:,COG",
+				"Navigation,INT",
+				"Networking:Autonomists,SAV,50 0 50",
+				"Networking:Scientists,SAV,30 0 30",
+				"Networking:,SAV",
+				"Networking:,SAV",
+				"Palming,COO,35 5 40",
+				"Perception,INT,45 5 50",
+				"Persuasion,SAV,30 0 30"
+			],
+			"1": [
+				"Pilot:Aircraft,REF,40 0 40",
+				"Pilot:Groundcraft,REF,30 0 30",
+				"Programming,COG*,50 0 50",
+				"Protocol,SAV,20 0 20",
+				"Psi Assault,WIL*",
+				"Psychosurgery,INT",
+				"Research,COG,65 0 65",
+				"Scrounging: Bazaars,INT,55 5 60",
+				"Seeker Weapons,COO",
+				"Sense,INT*",
+				"Spray Weapons,COO",
+				"Swimming,SOM,20 10 30",
+				"Throwing Weapons,COO,55 5 60",
+				"Unarmed Combat,SOM,50 10 60",
+				"",
+				""
+			],
+			"2": [
+				"Academics:Engineering,COG,45 0 45",
+				"Academics:,COG",
+				"Academics:,COG",
+				"Academics:,COG",
+				"Art:Architecture,INT,25 5 30",
+				"Art:,INT",
+				"Art:,INT",
+				"Art:,INT",
+				"Interest:Genetics Research,COG,45 0 45",
+				"Interest:,COG",
+				"Interest:,COG",
+				"Interest:,COG",
+				"Language:English,INT,100 5 105",
+				"Language:,INT",
+				"Language:,INT",
+				"Language:,INT",
+				"Profession:Social Engineering,COG,40 0 40",
+				"Profession:,COG",
+				"Profession:,COG",
+				"Profession:,COG"
+			]
+		},
+		"rep": {
+			"@-rep": 30,
+			"c-rep": 5,
+			"e-rep": 0,
+			"f-rep": 0,
+			"g-rep": 0,
+			"i-rep": 0,
+			"r-rep": 15
+		},
+		"traits": [
+			"Edited memories"
+		],
+		"armor": {
+			"energy": 3,
+			"kinetic": 4
+		},
+		"implants": [
+			"Basic Biomods",
+			"Basic Mesh Inserts (Disabled)",
+			"Cortical Stack",
+			"Enhanced Respiration",
+			"Enhanced Vision",
+			"Gills",
+			"Swim Bladder",
+			"Temperature Tolerance (Improved Cold)",
+			"Toxin Filters"
+		],
+		"gear": [
+			"5000 cr",
+			"Backup Insurance (1 months)",
+			"Bioweave (Light 3/4)"
+		], 
+		"weapons": [
+			{},
+			{}
+		]
+	}
+}
