@@ -67,7 +67,12 @@
 		{
 			"name": "EP-Sideways-Monde",
 			"uri": "ep-char-monde.json"
+		},
+		{
+			"name": "EP-Sideways-Pstone",
+			"uri": "ep-char-pstone.json"
 		}
+
 
 	]	
 }

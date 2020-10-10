@@ -1,0 +1,168 @@
+{
+	"spec": {
+		"player": "Pstone",
+		"overview": {
+			"name": "Pstone",
+			"background": "Original Space Colonist",
+			"faction": "Expropian",
+			"morph": "Squid-Faced",
+			"gender": "",
+			"age": "",
+			"moxie": 1,
+			"rez": 0,
+			"motivations": "+ Uplift Rights,+ Bioconservatism,- Religion"
+		},
+		"aptitudes": {
+			"base": {
+				"cog": 20,
+				"coo": 10,
+				"int": 20,
+				"ref": 20,
+				"sav": 15,
+				"som": 10,
+				"wil": 20
+				},
+			"morph": {
+				"cog": 0,
+				"coo": 5,
+				"int": 5,
+				"ref": 0,
+				"sav": 0,
+				"som": 10,
+				"wil": 0
+			}
+		},
+		"stats": {
+			"mox": 1,
+			"tt": 8,
+			"luc": 40,
+			"ir": 40,
+			"wt": 8,
+			"dur": 40,
+			"dr": 60,
+			"init": 9,
+			"spd": 1,
+			"db": "1"
+		},
+		"skills": {
+			"0": [
+				"Animal Handling,SAV",
+				"Beam Weapons,COO,40 5 45",
+				"Blades,SOM",
+				"Climbing,SOM",
+				"Clubs,SOM",
+				"Control,WIL*,50 0 50",
+				"Deception,SAV,50 0 50",
+				"Demolitions,COG*,30 0 30",
+				"Disguise,INT",
+				"Exotic Melee:,SOM",
+				"Exotic Melee:,SOM",
+				"Exotic Ranged:,COO",
+				"Exotic Ranged:,COO",
+				"Flight,SOM",
+				"Fray,REF,50 0 50",
+				"Free Fall,REF",
+				"Freerunning,SOM,30 10 40",
+				"Gunnery,INT",
+				"Hardware:Electronics,COG,60 0 60",
+				"Hardware:Robotics,COG,70 0 70",
+				"Impersonation,SAV",
+				"Infiltration,COO",
+				"Infosec,COG*,70 0 70",
+				"Interfacing,COG",
+				"Intimidation,SAV",
+				"Investigation,INT,40 5 45",
+				"Kinesics,SAV",
+				"Kinetic Weapons,COO,70 5 75",
+				"Medicine:General,COG,55 0 55",
+				"Medicine:,COG",
+				"Navigation,INT",
+				"Networking:Autonomists,SAV,35 0 35",
+				"Networking:Firewall,SAV,35 0 35",
+				"Networking:,SAV",
+				"Networking:,SAV",
+				"Palming,COO",
+				"Perception,INT,60 5 65",
+				"Persuasion,SAV,25 0 25"
+			],
+			"1": [
+				"Pilot:Aircraft,REF,55 0 55",
+				"Pilot:Spacecraft,REF,30 0 30",
+				"Programming,COG*,80 0 80",
+				"Protocol,SAV",
+				"Psi Assault,WIL*,50 0 50",
+				"Psychosurgery,INT",
+				"Research,COG,50 0 50",
+				"Scrounging,INT",
+				"Seeker Weapons,COO",
+				"Sense,INT*",
+				"Spray Weapons,COO",
+				"Swimming,SOM",
+				"Throwing Weapons,COO",
+				"Unarmed Combat,SOM,50 10 60",
+				"",
+				""
+			],
+			"2": [
+				"Academics:Computer Systems,COG,40 0 40",
+				"Academics:Cryptography,COG,40 0 40",
+				"Academics:Engineering,COG 60 0 60",
+				"Academics:,COG",
+				"Art:,INT",
+				"Art:,INT",
+				"Art:,INT",
+				"Art:,INT",
+				"Interest:Hypercorp Politics,COG,45 0 45",
+				"Interest:,COG",
+				"Interest:,COG",
+				"Interest:,COG",
+				"Language:Russian,INT,80 0 80",
+				"Language:,INT",
+				"Language:,INT",
+				"Language:,INT",
+				"Profession:Forensics,COG,60 0 60",
+				"Profession:Security Systems,COG,60 0 60",
+				"Profession:Social Engineering,COG,60 0 60",
+				"Profession:,COG"
+			]
+		},
+		"rep": {
+			"@-rep": 0,
+			"c-rep": 10,
+			"e-rep": 0,
+			"f-rep": 0,
+			"g-rep": 0,
+			"i-rep": 10,
+			"r-rep": 30
+		},
+		"traits": [
+			"Bad luck",
+			"Brave",
+			"Psi, Mindlink"
+		],
+		"armor": {
+			"energy": 3,
+			"kinetic": 4
+		},
+		"implants": [
+			"Basic Biomods",
+			"Basic Mesh Inserts (Disabled)",
+			"Cortical Stack",
+			"Enhanced Respiration",
+			"Enhanced Vision",
+			"Gills",
+			"Swim Bladder",
+			"Temperature Tolerance (Improved Cold)",
+			"Toxin Filters"
+		],
+		"gear": [
+			"5000 cr",
+			"Backup Insurance (1 months)",
+			"Bioweave (Light 3/4)"
+		], 
+		"weapons": [
+			{},
+			{}
+		]
+	}
+}

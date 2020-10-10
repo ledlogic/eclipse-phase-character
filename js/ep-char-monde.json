@@ -96,7 +96,7 @@
 				"Scrounging,INT,60 5 65",
 				"Seeker Weapons,COO",
 				"Sense,INT*",
-				"Spray Weapons,COO,30 5 35",
+				"Spray Weapons,COO",
 				"Swimming,SOM,50 10 60",
 				"Throwing Weapons,COO",
 				"Unarmed Combat,SOM,60 10 70",
@@ -164,7 +164,13 @@
 			"Bioweave (Light 3/4)"
 		], 
 		"weapons": [
-			{},
+			{
+				"name": "Bite",
+				"skill": 30,
+				"ap": -4,
+				"dv": "2d10+4",
+				"rounds": "500"
+			},
 			{}
 		]
 	}
