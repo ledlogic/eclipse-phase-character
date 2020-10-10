@@ -1,0 +1,168 @@
+{
+	"spec": {
+		"player": "Nara",
+		"overview": {
+			"name": "Nara",
+			"background": "Colonist",
+			"faction": "Lunar",
+			"morph": "Squid-Faced",
+			"gender": "",
+			"age": "",
+			"moxie": 10,
+			"rez": 0,
+			"motivations": "+ Alien Contact, + Reclaiming Earth, - Immortality"
+		},
+		"aptitudes": {
+			"base": {
+				"cog": 25,
+				"coo": 20,
+				"int": 25,
+				"ref": 20,
+				"sav": 10,
+				"som": 15,
+				"wil": 15
+				},
+			"morph": {
+				"cog": 0,
+				"coo": 5,
+				"int": 5,
+				"ref": 0,
+				"sav": 0,
+				"som": 10,
+				"wil": 0
+			}
+		},
+		"stats": {
+			"mox": 10,
+			"tt": 6,
+			"luc": 30,
+			"ir": 60,
+			"wt": 8,
+			"dur": 40,
+			"dr": 60,
+			"init": 10,
+			"spd": 1,
+			"db": "2.5"
+		},
+		"skills": {
+			"0": [
+				"Animal Handling,SAV",
+				"Beam Weapons,COO,35 5 40",
+				"Blades,SOM",
+				"Climbing,SOM",
+				"Clubs,SOM",
+				"Control,WIL*,15 0 15",
+				"Deception,SAV,20 0 20",
+				"Demolitions,COG*",
+				"Disguise,INT",
+				"Exotic Melee:,SOM",
+				"Exotic Melee:,SOM",
+				"Exotic Ranged:,COO,30 5 35",
+				"Exotic Ranged:,COO",
+				"Flight,SOM,40 10 50",
+				"Fray,REF,40 0 40",
+				"Free Fall,REF,30 0 30",
+				"Freerunning,SOM",
+				"Gunnery,INT,65 5 70",
+				"Hardware:Electronics,COG,35 0 35",
+				"Hardware:,COG",
+				"Impersonation,SAV",
+				"Infiltration,COO,35 5 35",
+				"Infosec,COG*,45 0 45",
+				"Interfacing,COG,40 0 40",
+				"Intimidation,SAV",
+				"Investigation,INT,40 5 45",
+				"Kinesics,SAV",
+				"Kinetic Weapons,COO,35 5 40",
+				"Medicine:,COG",
+				"Medicine:,COG",
+				"Navigation,INT,125 5 130",
+				"Networking:Ecologists,SAV,50 0 50",
+				"Networking:Hypercorps,SAV,60 0 60",
+				"Networking:,SAV",
+				"Networking:,SAV",
+				"Palming,COO",
+				"Perception,INT,45 5 50",
+				"Persuasion,SAV"
+			],
+			"1": [
+				"Pilot:Groundcraft,REF,70 0 70",
+				"Pilot:Spacecraft,REF,50 0 50",
+				"Programming,COG*",
+				"Protocol,SAV,50 0 50",
+				"Psi Assault,WIL*",
+				"Psychosurgery,INT",
+				"Research,COG,45 0 45",
+				"Scrounging,INT,35 5 40",
+				"Seeker Weapons,COO,30 5 35",
+				"Sense,INT*",
+				"Spray Weapons,COO,30 5 35",
+				"Swimming,SOM",
+				"Throwing Weapons,COO",
+				"Unarmed Combat,SOM,25 10 35",
+				"",
+				""
+			],
+			"2": [
+				"Academics:Linguistics,COG,65 0 65",
+				"Academics:,COG",
+				"Academics:,COG",
+				"Academics:,COG",
+				"Art:,INT",
+				"Art:,INT",
+				"Art:,INT",
+				"Art:,INT",
+				"Interest:,COG",
+				"Interest:,COG",
+				"Interest:,COG",
+				"Interest:,COG",
+				"Language:Mandarin,INT,95 0 95",
+				"Language:,INT",
+				"Language:,INT",
+				"Language:,INT",
+				"Profession:Pilot,COG,50 0 50",
+				"Profession:,COG",
+				"Profession:,COG",
+				"Profession:,COG"
+			]
+		},
+		"rep": {
+			"@-rep": 40,
+			"c-rep": 40,
+			"e-rep": 50,
+			"f-rep": 0,
+			"g-rep": 10,
+			"i-rep": 0,
+			"r-rep": 10
+		},
+		"traits": [
+			"Bad Luck",
+			"Common Sense",
+			"Direction Sense",
+			"Hyperlinguist"
+		],
+		"armor": {
+			"energy": 3,
+			"kinetic": 4
+		},
+		"implants": [
+			"Basic Biomods",
+			"Basic Mesh Inserts (Disabled)",
+			"Cortical Stack",
+			"Enhanced Respiration",
+			"Enhanced Vision",
+			"Gills",
+			"Swim Bladder",
+			"Temperature Tolerance (Improved Cold)",
+			"Toxin Filters"
+		],
+		"gear": [
+			"Backup Insurance (1 months)",
+			"Bioweave (Light 3/4)"
+		], 
+		"weapons": [
+			{},
+			{}
+		]
+	}
+}

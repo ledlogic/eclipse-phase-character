@@ -59,6 +59,11 @@
 		{
 			"name": "EP-Scum Techie",
 			"uri": "ep-char-scum-techie.json"
+		},
+		{
+			"name": "EP-Sideways-Nara",
+			"uri": "ep-char-nara.json"
 		}
+
 	]	
 }

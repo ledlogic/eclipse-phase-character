@@ -163,7 +163,7 @@
 }
 
 .ep-traits-item {
-	display: inline-block;
+	display: block;
 	margin: 0 0 0 0;
 	width: 200px;
 }
