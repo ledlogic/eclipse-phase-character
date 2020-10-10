@@ -29,3 +29,10 @@ Additional Tools
 Need random motivations, try
 * https://stackoverflow.com/a/15065490/987044
 * on /eclipse-phase-character/data/ep-motivations.csv
+
+Need random names, try
+* https://www.scifiideas.com/cyberpunk-name-generator/
+
+Created PDFs:
+1. Print each side as PDF (1 page only)
+2. Use https://combinepdf.com/ to combine

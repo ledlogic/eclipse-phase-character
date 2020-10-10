@@ -63,6 +63,10 @@
 		{
 			"name": "EP-Sideways-Nara",
 			"uri": "ep-char-nara.json"
+		},
+		{
+			"name": "EP-Sideways-Monde",
+			"uri": "ep-char-monde.json"
 		}
 
 	]	
